@@ -12,7 +12,7 @@ This github repository does not contain any code, but has links that point to th
 
 
 ## Model Zoo & Benchmark
-- **Jacinto-AI-ModelZoo**: Large collection of pre-trained models that are verified to work on our platform. We also information on how to train some of the important models, and also the complexity and what accuracy to expect. These models are primarily intended as examples for development. <br>
+- **Jacinto-AI-ModelZoo**: Large collection of pre-trained models that are verified to work on our platform. We also information on how to train some of the important models, and also the complexity and what accuracy to expect. These models are primarily intended as examples for development. This repository also contains Pre-Imported model artifacts that can be used for inference on our device. <br>
 -- Documentation: [**link**](http://git.ti.com/cgit/jacinto-ai/jacinto-ai-modelzoo/about/) <br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/jacinto-ai-modelzoo/) <br>
 
@@ -21,7 +21,7 @@ This github repository does not contain any code, but has links that point to th
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/jacinto-ai-benchmark/) <br>
 
 
-## Model Training
+## Model Training for Jacinto7 family of devices
 Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM) <br>
 - **Pytorch-Jacinto-AI-DevKit**: PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and [Quantization Aware Training](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/docs/Quantization.md). <br>
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/) <br>
@@ -31,6 +31,15 @@ Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-mmdetection/about/) <br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/pytorch-mmdetection/) <br>
 
+- **PyTorch-SSDS-Keypoints**: This repository contains implementation of our work "Deep Learning based Parking Spot Detection and Classification in Fish-Eye Images". <br>
+-- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-ssds-keypoints/about/) <br>
+-- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/pytorch-ssds-keypoints/) <br>
+
+
+<hr>
+
+
+## Model Training for Jacinto6 family of devices
 Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x). These older modules are not included as submodules in this repo, but can be obtained using the links below. <br>
 - **Caffe-Jacinto**: Our Caffe fork for training sparse CNN models including Object Detection and Semantic Segmentation models. <br>
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/about/) <br>
