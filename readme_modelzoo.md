@@ -22,7 +22,8 @@ This github repository does not contain any code, but has links that point to th
 
 
 ## Model Training for Jacinto7 family of devices
-Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM) <br>
+![TDA4VM](./assets/TDA4VM.jpg) Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM) <br>
+
 - **Pytorch-Jacinto-AI-DevKit**: PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and [Quantization Aware Training](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/docs/Quantization.md). <br>
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/) <br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/) <br>
@@ -40,7 +41,8 @@ Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www
 
 
 ## Model Training for Jacinto6 family of devices
-Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x). These older modules are not included as submodules in this repo, but can be obtained using the links below. <br>
+![TDA4VM](./assets/TDA4VM.jpg) Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x). These older modules are not included as submodules in this repo, but can be obtained using the links below. <br>
+
 - **Caffe-Jacinto**: Our Caffe fork for training sparse CNN models including Object Detection and Semantic Segmentation models. <br>
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/about/) <br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/) <br>
