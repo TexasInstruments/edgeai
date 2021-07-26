@@ -3,11 +3,9 @@
 
 [EdgeAI Development Kit](http://software-dl.ti.com/jacinto7/esd/edgeai-devkit/latest/exports/docs/) - With a few simple steps you can run high performance Computer Vision and Deep Learning demos using live camera and display on TI’s latest Jacinto7/TDA4VM heterogeneous SoC.
 
-[Platform SDK For Jacinto7](https://www.ti.com/tool/PROCESSOR-SDK-J721E) which consists of RTOS, Linux & QNZ SDKs. Processor SDK RTOS (PSDK RTOS) and Processor SDK Linux (PSDK LINUX) together form a multi-processor software development kit for the J721E platform. The SDK provides a comprehensive set of software tools and components to help users develop and deploy their applications on supported SoCs. EdgeAI Development Kit is built using this.
+[PROCESSOR-SDK](https://www.ti.com/tool/PROCESSOR-SDK-J721E) which consists of RTOS, Linux & QNZ SDKs. Processor SDK RTOS (PSDK RTOS) and Processor SDK Linux (PSDK LINUX) together form a multi-processor software development kit for the J721E platform. The SDK provides a comprehensive set of software tools and components to help users develop and deploy their applications on supported SoCs. EdgeAI Development Kit is built using this.
 
-[PSDK RTOS For Jacinto7](https://www.ti.com/tool/download/PROCESSOR-SDK-RTOS-J721E) which contains most of the foundation software and firmware for our DSPs and Hardware Accelerators - including the TI Deep Learning Library (TIDL). 
-
-[User Guide for PSDK RTOS](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos/docs/user_guide/index.html)
+[PROCESSOR-SDK-RTOS](https://www.ti.com/tool/download/PROCESSOR-SDK-RTOS-J721E) which contains most of the foundation software and firmware for our DSPs and Hardware Accelerators - including the TI Deep Learning Library (TIDL). 
 
 
 ## Tools & Repositories

@@ -12,6 +12,10 @@ This github repository does not contain any code, but has links that point to th
 
 
 ## Model Zoo & Benchmark
+Example Deep Neural Network Models for our embedded devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM) <br>
+
+![TDA4VM](./assets/TDA4VM.jpg) 
+
 - **Jacinto-AI-ModelZoo**: Large collection of pre-trained models that are verified to work on our platform. We also information on how to train some of the important models, and also the complexity and what accuracy to expect. These models are primarily intended as examples for development. This repository also contains Pre-Imported model artifacts that can be used for inference on our device. <br>
 -- Documentation: [**link**](http://git.ti.com/cgit/jacinto-ai/jacinto-ai-modelzoo/about/) <br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/jacinto-ai-modelzoo/) <br>
@@ -21,8 +25,10 @@ This github repository does not contain any code, but has links that point to th
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/jacinto-ai-benchmark/) <br>
 
 
-## Model Training for Jacinto7 family of devices
-![TDA4VM](./assets/TDA4VM.jpg) Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM) <br>
+## Model Training
+Deep Neural Network Model Training for our embedded devices.
+
+![Model Training](./assets/dnn-picture-small.png) 
 
 - **Pytorch-Jacinto-AI-DevKit**: PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and [Quantization Aware Training](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/docs/Quantization.md). <br>
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/) <br>
@@ -40,24 +46,6 @@ This github repository does not contain any code, but has links that point to th
 <hr>
 
 
-## Model Training for Jacinto6 family of devices
-![TDA4VM](./assets/TDA4VM.jpg) Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x). These older modules are not included as submodules in this repo, but can be obtained using the links below. <br>
-
-- **Caffe-Jacinto**: Our Caffe fork for training sparse CNN models including Object Detection and Semantic Segmentation models. <br>
--- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/about/) <br>
--- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/) <br>
-
-- **Caffe-Jacinto-Models**: Scripts and examples for training sparse CNN models for Image Classification, Object Detection and Semantic Segmentation. <br>
--- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto-models/about/) <br>
--- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto-models/) <br>
-
-- **Acf-Jacinto** - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based) <br>
--- Documentation: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/about/) <br>
--- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/) <br>
-
-<hr>
-
-
 ## Model Quantization
 Quantization (especially 8-bit Quantization) is important to get best throughput for inference. Quantization can be done using either **Post Training Quantization (PTQ)** or **Quantization Aware Training (QAT)**.
 
@@ -67,24 +55,13 @@ We have  guidelines on how to choose models and how train them to get best accur
 
 <hr>
 
-
-## Notes: 
-- If you click on one of the links above - it will navigate to a repository hosted in **https://git.ti.com/jacinto-ai**. From there, you can click on one of the tabs to get more information on that repository. 
-- For example, the **about** tab shows documentation. The **summary** tab lists all the branches, commit information and links for git clone/pull that repository.
-- Each of those repositories also have separate LICENSE files. 
-
-<hr>
-
-## Issue Trackers: 
-- **Issue Tracker for TIDL:** [https://e2e.ti.com/support/processors/f/791/tags/TIDL](https://e2e.ti.com/support/processors/f/791/tags/TIDL). Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
-- **Issue Tracker for jacinto-ai-devkit:** You can file issues or ask questions at **e2e**: [https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit](https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit). While creating a new issue kindly include **jacinto-ai-devkit** in the tags (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
-
-<hr>
-
 ## What is New:
 - [2021-July] Several of our repositories are being moved from git.ti.com to github.com
 
 <hr>
 
-## License
-Please see the [LICENSE](./LICENSE) file for more information about the license under which this landing repository is made available. The LICENSE file of each repository mentioned here is inside that repository.
+## Notes: 
+- Information about Deep Neural Network Model training software for our older family of devices is [here](./readme_modelzoo-j6.md).
+
+<hr>
+
