@@ -25,7 +25,7 @@ Example Deep Neural Network Models for our embedded devices - e.g. [TDA4VM](http
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/jacinto-ai-benchmark/) <br>
 
 
-## Model Training
+## Model Training Tools And Repositories
 Deep Neural Network Model Training for our embedded devices.
 
 ![Model Training](./assets/dnn-picture-small.png) 
