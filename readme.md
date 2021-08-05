@@ -18,7 +18,7 @@ Embedded Inference of Deep Learning models is quite challenging - due to high co
 ## Model Training, Model Zoo & Benchmarking Tools
 ![Model training](./assets/neural-networks-icon-small.png)
 
-[Model Training, Model Zoo & Benchmarking Tools](readme_modelzoo.md)
+[Model Training, Model Zoo & Benchmarking Tools](readme_models.md)
 
 <hr>
 
