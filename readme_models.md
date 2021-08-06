@@ -15,8 +15,8 @@ We also have Python modules and examples for **Quantization Aware Training** to 
 
 <hr>
 
-## EdgeAI Cloud
-**[EdgeAI Cloud](https://www.ti.com/tool/TI-EDGE-AI-CLOUD)** is a free online service that lets you evaluate accelerated deep learning inference on TI devices from your browser in minutes. Also provided there, is TI's Model Selection Tool that enables picking the ideal model for TI's embedded devices.
+## EdgeAI Cloud Evaluation
+**[EdgeAI Cloud Evaluation](https://www.ti.com/tool/TI-EDGE-AI-CLOUD)** is a free online service that lets you evaluate accelerated deep learning inference on TI devices from your browser in minutes. Also provided there, is TI's Model Selection Tool that enables picking the ideal model for TI's embedded devices.
 
 
 <hr>
