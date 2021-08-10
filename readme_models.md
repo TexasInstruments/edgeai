@@ -25,10 +25,9 @@ We also have Python modules and examples for **Quantization Aware Training** to 
 ## Model Zoo & Benchmark
 Example Deep Neural Network Models for our embedded devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)
 
-**[edgeai-modelzoo](https://github.com/TexasInstruments/edgeai-modelzoo)**: Large collection of pre-trained example models for our platform. Also provides information on how to train models using popular repositories.
+**[edgeai-benchmark](https://github.com/TexasInstruments/edgeai-benchmark)**: A python based framework which can allow you to perform accuracy and performance benchmark. Accuracy benchmark can be performed without development board, but for performance benchmark, a development board is needed. The pre-trained models in our Model Zoo are supported off-the-shelf in this benchmark code and pre-compiled model artifacts provided along with the model zoo can be used. Compilation of custom models can be done either directly using **TIDL** (see TIDL documentation) or using this repository (which basically provides wrapper scripts over TIDL).
 
-**[edgeai-benchmark](https://github.com/TexasInstruments/edgeai-benchmark)**: A python based framework which can allow you to perform accuracy and performance benchmark. Accuracy benchmark can be performed without development board, but for performance benchmark, a development board is needed. The pre-trained models in our Model Zoo are supported off-the-shelf in this benchmark code and pre-compiled model artifacts are provided. Compilation of custom models can also be done. This repository depends on **TIDL**.
-
+**[edgeai-modelzoo](https://github.com/TexasInstruments/edgeai-modelzoo)**: Large collection of pre-trained example models for our platform. Also provides information on how to train models using popular repositories. Pre-compiled model artifacts (created using edgeai-benchmark) are also provided.
 
 <hr>
 
