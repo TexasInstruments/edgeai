@@ -5,11 +5,11 @@
 
 ## EdgeAI Software Development Kit
 
-**[EdgeAI-SDK](http://software-dl.ti.com/jacinto7/esd/edgeai-devkit/latest/exports/docs/)** - With a few simple steps you can run high performance Computer Vision and Deep Learning demos using live camera and display on TI’s latest Jacinto7/TDA4VM heterogeneous SoC.
+**[EdgeAI-SDK](http://software-dl.ti.com/jacinto7/esd/edgeai-sdk-j721e/latest/exports/docs/)** - With a few simple steps you can run high performance Computer Vision and Deep Learning demos using live camera and display on TI’s latest Jacinto7/TDA4VM heterogeneous SoC.
 
-**[PROCESSOR-SDK](https://www.ti.com/tool/PROCESSOR-SDK-J721E)** which consists of RTOS, Linux & QNZ SDKs. Processor SDK RTOS (PSDK RTOS) and Processor SDK Linux (PSDK LINUX) together form a multi-processor software development kit for the J721E platform. The SDK provides a comprehensive set of software tools and components to help users develop and deploy their applications on supported SoCs. EdgeAI Development Kit is built using this.
+**[PROCESSOR-SDK](https://www.ti.com/tool/PROCESSOR-SDK-J721E)** which consists of RTOS, Linux & QNX SDKs. Processor-SDK-RTOS (PSDK-RTOS) and Processor-SDK-Linux (PSDK-LINUX) together form a multi-processor software development kit for the J721E platform. The SDK provides a comprehensive set of software tools and components to help users develop and deploy their applications on supported SoCs. EdgeAI Development Kit is built using this.
 
-**[PROCESSOR-SDK-RTOS](https://www.ti.com/tool/download/PROCESSOR-SDK-RTOS-J721E)** which contains most of the foundation software and firmware for our DSPs and Hardware Accelerators - including the TI Deep Learning Library (TIDL). TIDL is a fundamental software component of TI’s Edge AI solution. Please consult the documentation TIDL inside this SDK to understand more.
+**[TI Deep Learning Library/Product (TIDL)](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos/docs/user_guide/sdk_components_j721e.html#ti-deep-learning-library-tidl)** - The package that contains TI Deep Learning inference engine, deep learning network compiler (DLNAPS) and deep learning network import tool for C7x/MMA.
 
 
 ## Tools & Repositories
