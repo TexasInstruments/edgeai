@@ -14,7 +14,11 @@
 
 ## Tools & Repositories
 
+These links are provided for information only. Most of these repositories (or their binary installers) are packaged directly in the SDK or is downloaded in the SDK. If you need to manually clone any of these repositories, SDK documentation will provide that information.
+
 **[edgeai-gst-plugins](https://github.com/TexasInstruments/edgeai-gst-plugins)**: Repository to host GStreamer plugins for TI's EdgeAI class of devices
+
+**[edgeai-tiovx-modules](https://github.com/TexasInstruments/edgeai-tiovx-modules)**: Repository to host TI's OpenVx modules used in EdgeAI SDK. These modules serve as the bridge between EdgeAI's custom GStreamer elements and underlying hardware accelerators and DSPs on Jacinto and Sitara class of processors.
 
 **[tensorflow](https://github.com/TexasInstruments/tensorflow)**: TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML-powered applications. Please see the branch **tidl-j7** for changes specific to our device.
 
