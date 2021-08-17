@@ -14,7 +14,12 @@
 
 ## Tools & Repositories
 
-These links are provided for information only. Most of these repositories (or their binary installers) are packaged directly in the SDK or is downloaded in the SDK. If you need to manually clone any of these repositories, SDK documentation will provide that information.
+**[edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools)**: This repository contains examples developed for Deep learning runtime (DLRT) offering provided by TI’s edge AI solutions. This repository also provides model compilation tools that can help to compile DNN models (see the releases of this repository) and also run inference on PC (simulation). The resulting compiled model artifacts can be used to deploy AI applications on [EdgeAI-SDK](http://software-dl.ti.com/jacinto7/esd/edgeai-sdk-j721e/latest/exports/docs/), to achieve most optimal performance.
+
+
+## Other Tools & Repositories (For information only)
+
+Most of these repositories (or their binary installers) are packaged as part of the SDK or other tools. If you need to manually clone any of these repositories, SDK documentation will provide that information.
 
 **[edgeai-gst-plugins](https://github.com/TexasInstruments/edgeai-gst-plugins)**: Repository to host GStreamer plugins for TI's EdgeAI class of devices
 
