@@ -3,23 +3,21 @@
 
 <hr>
 
-## EdgeAI Software Development Kit
+## Software Development Kit
 
-**[EdgeAI-SDK](http://software-dl.ti.com/jacinto7/esd/edgeai-sdk-j721e/latest/exports/docs/)** - With a few simple steps you can run high performance Computer Vision and Deep Learning demos using live camera and display on TI’s latest Jacinto7/TDA4VM heterogeneous SoC.
-
-**[PROCESSOR-SDK](https://www.ti.com/tool/PROCESSOR-SDK-J721E)** which consists of RTOS, Linux & QNX SDKs. Processor-SDK-RTOS (PSDK-RTOS) and Processor-SDK-Linux (PSDK-LINUX) together form a multi-processor software development kit for the J721E platform. The SDK provides a comprehensive set of software tools and components to help users develop and deploy their applications on supported SoCs. EdgeAI Development Kit is built using this.
-
-**[TI Deep Learning Library/Product (TIDL)](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos/docs/user_guide/sdk_components_j721e.html#ti-deep-learning-library-tidl)** - The package that contains TI Deep Learning inference engine, deep learning network compiler (DLNAPS) and deep learning network import tool for C7x/MMA.
+**[PROCESSOR-SDK-LINUX-SK-TDA4VM](https://www.ti.com/tool/download/PROCESSOR-SDK-LINUX-SK-TDA4VM)** - Processor SDK Linux for TDA4VM Starter Kit. The SDK provides software and tools to let you effectively balance deep learning performance with system power and cost on Texas Instrument’s processors for edge AI applications such as latest TDA4 class of SoCs. We offer a practical embedded inference solution for next-generation vehicles, smart cameras, edge AI boxes, and autonomous machines and robots. In addition to general compute core and deep learning cores accelerator, our processors for edge AI integrate imaging, vision, multimedia cores hardware accelerators and with security enablers and optional microcontrollers for applications that require SIL-3 and ASIL-D functional safety certifications. With a few simple steps you can run high performance computer vision and deep learning demos using a live camera and display.
 
 
 ## Tools & Repositories
 
-**[edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools)**: This repository contains examples developed for Deep learning runtime (DLRT) offering provided by TI’s edge AI solutions. This repository also provides model compilation tools that can help to compile DNN models (see the releases of this repository) and also run inference on PC (simulation). The resulting compiled model artifacts can be used to deploy AI applications on [EdgeAI-SDK](http://software-dl.ti.com/jacinto7/esd/edgeai-sdk-j721e/latest/exports/docs/), to achieve most optimal performance.
+**[edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools)**: This repository contains examples developed for Deep learning runtime (DLRT) offering provided by TI’s edge AI solutions. This repository also provides model compilation tools that can help to compile DNN models (see the releases of this repository) and also run inference on PC (simulation). The resulting compiled model artifacts can be used to deploy AI applications on PROCESSOR-SDK-LINUX-SK-TDA4VM to achieve most optimal performance.
 
 
 ## Other Tools & Repositories (For information only)
 
-Most of these repositories (or their binary installers) are packaged as part of the SDK or other tools. If you need to manually clone any of these repositories, SDK documentation will provide that information.
+Most of these components are packaged as part of the SDK or other tools. If you need to manually clone or download any of these repositories or tools, SDK documentation will provide that information.
+
+**[TI Deep Learning Library/Product (TIDL)](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos/docs/user_guide/sdk_components_j721e.html#ti-deep-learning-product-tidl)** - The package that contains TI Deep Learning inference engine, deep learning network compiler (DLNAPS) and deep learning network import tool for C7x/MMA. *Note: This link is provided here only to easily access TIDL documentation.*
 
 **[edgeai-gst-plugins](https://github.com/TexasInstruments/edgeai-gst-plugins)**: Repository to host GStreamer plugins for TI's EdgeAI class of devices
 
