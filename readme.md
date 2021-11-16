@@ -1,7 +1,15 @@
 # EdgeAI Software And Development Tools
+
+### Notice
+If you have not visited the following landing pages, please do so before attempting to use this repository.
+- https://www.ti.com/edgeai 
+- https://github.com/TexasInstruments/edgeai
+
+<hr>
 Real Time Inference Software & Model Development For Embedded AI Development.
 
 ![EmbeddedAI](./assets/artificial-intelligence-technology-chipset-on-circuit-board-small.png)
+
 
 ## Introduction
 This repository provides several **tools for AI**, including Deep Learning, traditional Machine Learning and Computer Vision. 
