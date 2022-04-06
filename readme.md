@@ -43,6 +43,7 @@ Embedded Inference of Deep Learning models is quite challenging - due to high co
 <hr>
 
 ## What is New
+- [2022-April] Several of these repositories have been updated for the 8.2 release.
 - [2021-August] Several of our repositories are being moved from git.ti.com to github.com
 - [2021-December-21] Several of our repositories are being updated in preparation for the 8.1 (08_01_00_xx) release. These include edgeai-tidl-tools, edgeai-benchmark, edgeai-modelzoo and edgeai-torchvision. A new version of PROCESSOR-SDK-LINUX-SK-TDA4VM that corresponds to this will be available in a few days.
 
