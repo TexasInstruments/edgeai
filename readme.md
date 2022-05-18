@@ -10,6 +10,10 @@ Real Time Inference Software & Model Development For Embedded AI Development.
 
 ![EmbeddedAI](./assets/artificial-intelligence-technology-chipset-on-circuit-board-small.png)
 
+### Notice
+If you have not visited the following landing page, please do so before attempting to read this documentation.
+- https://www.ti.com/edgeai 
+
 
 ## Introduction
 This repository provides several **tools for AI**, including Deep Learning, traditional Machine Learning and Computer Vision. 
@@ -32,6 +36,12 @@ Embedded Inference of Deep Learning models is quite challenging - due to high co
 ![Model training](./assets/neural-networks-icon-small.png)
 
 **[Model Zoo, Model Selection, Model Training, Quantization & Benchmarking Tools](readme_models.md)**
+
+<hr>
+
+## Publications
+
+Read some of our **[Technical Publications](./readme_publications.md)**
 
 <hr>
 

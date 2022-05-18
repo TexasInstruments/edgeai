@@ -25,9 +25,9 @@ We also have Python modules and examples for **Quantization Aware Training** to 
 ## Model Zoo & Benchmark
 Example Deep Neural Network Models for our embedded devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)
 
-**[edgeai-benchmark](https://github.com/TexasInstruments/edgeai-benchmark)**: A python based framework which allows you to perform model compilation, accuracy and performance benchmark. Accuracy benchmark can be performed without development board, but for performance benchmark, a development board is needed. The pre-trained models in our Model Zoo are supported off-the-shelf in this benchmark code and pre-compiled model artifacts provided along with the model zoo can be used. This repository uses [edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools) for model compilation and inference.
+**[edgeai-benchmark](https://github.com/TexasInstruments/edgeai-benchmark)**: A python based framework which can used for model compilation, accuracy benchmark and performance benchmark. Accuracy benchmark can be performed on PC  without a development board / EVM. But for performance benchmark, a development board is needed. The pre-trained models in our Model Zoo are supported off-the-shelf in this benchmark code and pre-compiled model artifacts provided along with the Model Zoo can be used. This uses [edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools) for model compilation and inference.
 
-**[edgeai-modelzoo](https://github.com/TexasInstruments/edgeai-modelzoo)**: Large collection of pre-trained example models for our platform. Also provides information on how to train models using popular repositories. Pre-compiled model artifacts (created using edgeai-benchmark) are also provided.
+**[edgeai-modelzoo](https://github.com/TexasInstruments/edgeai-modelzoo)**: Large collection of pre-trained example models for our platform. Also provides information on how to train models using popular model training repositories. Pre-compiled model artifacts (compiled using edgeai-benchmark) are also provided.
 
 <hr>
 
@@ -45,17 +45,18 @@ Training tools based on popular Deep Learning Frameworks, allowing data scientis
 <hr>
 
 
-## Model Quantization
-Tools for **Quantization Aware Training (QAT)** in PyTorch are given in [edgeai-torchvision](https://github.com/TexasInstruments/edgeai-torchvision) and its documentation on **[Quantization](https://github.com/TexasInstruments/edgeai-torchvision/blob/master/docs/pixel2pixel/Quantization.md)**.
+## Guidelines for Model training & Quantization
+Quantization (especially 8-bit Quantization) is important to get best throughput for inference. Quantization can be done using either **Post Training Quantization (PTQ)** or **Quantization Aware Training (QAT)**.
 
-- Quantization (especially 8-bit Quantization) is important to get best throughput for inference. Quantization can be done using either **Post Training Quantization (PTQ)** or **Quantization Aware Training (QAT)**.
+- TIDL natively supports PTQ - it can take floating point models and can quantize them using advanced calibration methods. In the below page, we have provided guidelines on how to choose models and how train them for best accuracy with Quantization - these guidelines are important to reduce accuracy drop during quantization with **PTQ**. 
 
-- TIDL natively supports PTQ - it can take floating point models and can quantize them using advanced calibration methods. In the above page, we have provided guidelines on how to choose models and how train them for best accuracy with Quantization - these guidelines can reduce accuracy drop during deployment with **PTQ**. 
+- In spite of following these guidelines, if there are models that have significant accuracy drop with PTQ, it is possible to improve the accuracy using **QAT**. 
 
-- In spite of following these guidelines, if there are models that have significant accuracy drop with PTQ, it is possible to improve the accuracy using **QAT**.
+- Guidelines and tools for Model training and Quantization are given in [edgeai-torchvision](https://github.com/TexasInstruments/edgeai-torchvision) and its documentation on **[Quantization](https://github.com/TexasInstruments/edgeai-torchvision/blob/master/docs/pixel2pixel/Quantization.md)**. We also have tools for **Quantization Aware Training (QAT)** in this repository.
 
 
 <hr>
+
 
 ## Notes: 
 Information about Deep Neural Network Model training software for our older family of devices is [here](./readme_models-j6.md).
