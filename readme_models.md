@@ -22,6 +22,12 @@ We also have Python modules and examples for **Quantization Aware Training** to 
 <hr>
 
 
+## EdgeAI Model Development for Beginners
+**[EdgeAI-ModelMaker](https://github.com/TexasInstruments/edgeai-modelmaker)** is an easy-to-use model development tool for Edge AI. This brings together dataset handling, model training and model compilation using a command line interface. (Currently, dataset labelling is not integrated, but datasets annotated using an external tool such as Label Studio can be imported). This is achieved by stitching together several of the below model development repositories together - making it easy to install them and use them with a unified interface. This does not support all the below repositories and models, but only a subset. This tool makes it easy to get started with Edge AI model development.
+
+<hr>
+
+
 ## Model Zoo & Benchmark
 Example Deep Neural Network Models for our embedded devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)
 
