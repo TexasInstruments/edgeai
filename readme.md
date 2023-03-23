@@ -3,6 +3,7 @@
 ### Notice
 Our documentation landing pages are the following:
 - https://www.ti.com/edgeai
+- https://dev.ti.com/edgeai
 - https://github.com/TexasInstruments/edgeai
 
 <hr>
@@ -18,13 +19,21 @@ Embedded Inference of Deep Learning models is quite challenging - due to high co
 
 ![EdgeAIDevelopmentFlow](./assets/edgeai-development-flow.png)
 
+<hr>
+
+## Supported Devices & SDKs
+
+![SDK](./assets/sdk-code-cropped-icon.png)
+
+**[Supported Devices, SDKs and associated tools](readme_sdk.md)**
 
 <hr>
 
-## Software Development Kits (SDKs)
-![SDK](./assets/sdk-code-cropped-icon.png)
+## Developing GStreamer Applications
 
-**[Software Development Kits (SDKs) and associated tools](readme_sdk.md)**
+![GStreamer Applications](https://software-dl.ti.com/jacinto7/esd/processor-sdk-linux-edgeai/TDA4VM/08_06_00/exports/docs/_images/open-src-components.png)
+
+**[Developing GStreamer Applications](readme_apps.md)**
 
 <hr>
 
@@ -42,13 +51,16 @@ Read some of our **[Technical Publications](./readme_publications.md)**
 <hr>
 
 ## Issue Trackers
-**[Issue Tracker for TIDL, SDK etc](https://e2e.ti.com/support/processors/f/791/tags/TIDL)**: Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
+**[Issue Tracker for TIDL](https://e2e.ti.com/support/processors/f/791/tags/TIDL)**: Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 
-**[Issue Tracker for ModelZoo, Model Benchmark & Deep Neural Network Training Software](https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit):** You can file issues or ask questions at **e2e**. While creating a new issue kindly include **modelzoo** in the tags (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
+**[Issue Tracker for EdgeAI SDK](https://e2e.ti.com/support/processors/f/791/tags/EDGEAI)** Please include the tag **EDGEAI** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
+
+**[Issue Tracker for ModelZoo, Model Benchmark & Deep Neural Network Training Software](https://e2e.ti.com/support/processors/f/791/tags/MODELZOO):** Please include the tag **MODELZOO** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 
 <hr>
 
 ## What is New
+- [2023-March] Several of these repositories have been updated for the 8.6 release.
 - [2022-April] Several of these repositories have been updated for the 8.2 release.
 - [2021-August] Several of our repositories are being moved from git.ti.com to github.com
 - [2021-December-21] Several of our repositories are being updated in preparation for the 8.1 (08_01_00_xx) release. These include edgeai-tidl-tools, edgeai-benchmark, edgeai-modelzoo and edgeai-torchvision. A new version of PROCESSOR-SDK-LINUX-SK-TDA4VM that corresponds to this will be available in a few days.

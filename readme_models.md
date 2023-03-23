@@ -1,6 +1,6 @@
 # EdgeAI DNN Model Development Tools
 
-![EdgeAIDevelopment SDK](./assets/edgeai-development-models.png)
+![EdgeAI Development Flow](./assets/edgeai-development-models.png)
 
 Models Zoo, Model Selection, Training, Quantization & Benchmarking
 
@@ -15,9 +15,14 @@ We also have Python modules and examples for **Quantization Aware Training** to 
 
 <hr>
 
-## EdgeAI Cloud Evaluation
-**[EdgeAI Cloud Evaluation](https://www.ti.com/tool/TI-EDGE-AI-CLOUD)** is a free online service that lets you evaluate accelerated deep learning inference on TI devices from your browser in minutes. Also provided there, is TI's Model Selection Tool that enables picking the ideal model for TI's embedded devices.
+## EdgeAI Studio
+*URL*: [https://www.ti.com/tool/EDGE-AI-STUDIO](https://www.ti.com/tool/EDGE-AI-STUDIO)
 
+Supports the following functionalities:
+
+**Model Analyzer** is a free online service that lets you evaluate accelerated deep learning inference on TI devices from your browser in minutes. Also provided there, is TI's Model Selection Tool that enables picking the ideal model for TI's embedded devices.
+
+Model Composer - **coming soon**: Train, optimize and compile AI models for TI embedded processors. Supports Bring your own data (BYOD) - retrain TI models from TI Model Zoo to fine-tune performance for your unique application requirements.
 
 <hr>
 
@@ -29,7 +34,7 @@ We also have Python modules and examples for **Quantization Aware Training** to 
 
 
 ## Model Zoo & Benchmark
-Example Deep Neural Network Models for our embedded devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)
+Example Deep Neural Network Models for our embedded devices.
 
 **[edgeai-benchmark](https://github.com/TexasInstruments/edgeai-benchmark)**: A python based framework which can used for model compilation, accuracy benchmark and performance benchmark. Accuracy benchmark can be performed on PC  without a development board / EVM. But for performance benchmark, a development board is needed. The pre-trained models in our Model Zoo are supported off-the-shelf in this benchmark code and pre-compiled model artifacts provided along with the Model Zoo can be used. This uses [edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools) for model compilation and inference.
 
