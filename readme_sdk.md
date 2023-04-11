@@ -1,5 +1,5 @@
 
-![EdgeAIDevelopment SDK](./assets/edgeai-development-sdk.png)
+<img src="./assets/sdk-code-cropped-icon.png" width=600>
 
 <hr>
 

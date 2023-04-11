@@ -1,6 +1,6 @@
 # EdgeAI DNN Model Development Tools
 
-![EdgeAI Development Flow](./assets/edgeai-development-models.png)
+<img src="./assets/edgeai-development-flow.png" width=600>
 
 Models Zoo, Model Selection, Training, Quantization & Benchmarking
 

@@ -1,4 +1,4 @@
-![Low Code / No Code Deep Neural Network development tools](./assets/edgeaistudio_workflows.png)
+<img src="./assets/edgeaistudio_workflows.png" width=600>
 
 
 **[EDGE-AI-STUDIO](https://www.ti.com/tool/EDGE-AI-STUDIO)** Edge AI Studio is a collection of tools aimed to accelerate the development of edge AI application on TI embedded devices.

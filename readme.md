@@ -9,43 +9,41 @@ Our documentation landing pages are the following:
 <hr>
 Real Time Inference Software & Model Development For Embedded AI Development.
 
-![EmbeddedAI](./assets/artificial-intelligence-technology-chipset-on-circuit-board-small.png)
-
+<img src="./assets/artificial-intelligence-technology-chipset-on-circuit-board-small.png" width=600>
 
 ## Introduction
 This repository provides several **tools for AI**, including Deep Learning, traditional Machine Learning and Computer Vision. 
 
 Embedded Inference of Deep Learning models is quite challenging - due to high compute requirements. The tools provided here help to optimize and accelerate inference on embedded devices.
 
-![EdgeAIDevelopmentFlow](./assets/edgeai-development-flow.png)
+<img src="./assets/neural-networks-icon-small.png" width=600>
 
 <hr>
 
 ## Supported devices & SDKs
 
-![SDK](./assets/sdk-code-cropped-icon.png)
+<img src="./assets/sdk-code-cropped-icon.png" width=600>
 
 **[Supported devices, SDKs and associated tools](readme_sdk.md)**
 
 <hr>
 
 ## Developing edge AI applications with GStreamer 
-
-![GStreamer Applications](https://software-dl.ti.com/jacinto7/esd/processor-sdk-linux-edgeai/TDA4VM/08_06_00/exports/docs/_images/open-src-components.png)
+<img src="https://software-dl.ti.com/jacinto7/esd/processor-sdk-linux-edgeai/TDA4VM/08_06_00/exports/docs/_images/open-src-components.png" width=600>
 
 **[Developing edge AI applications with GStreamer](readme_apps.md)**
 
 <hr>
 
 ## Low code / no code Deep Neural Network development tools
-![Low Code / No Code Tools](./assets/edgeaistudio_workflows.png)
+<img src="./assets/edgeaistudio_workflows.png" width=600>
 
 **[Low Code / No Code Deep Neural Network development tools](readme_studio.md)**
 
 <hr>
 
 ## Advanced Deep Neural Network model development tools
-![Model training](./assets/neural-networks-icon-small.png)
+<img src="./assets/edgeai-development-flow.png" width=600>
 
 **[Model zoo, Model selection, Model training, quantization & benchmarking tools](readme_models.md)**
 
