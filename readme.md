@@ -21,41 +21,50 @@ Embedded Inference of Deep Learning models is quite challenging - due to high co
 
 <hr>
 
-## Supported Devices & SDKs
+## Supported devices & SDKs
 
 ![SDK](./assets/sdk-code-cropped-icon.png)
 
-**[Supported Devices, SDKs and associated tools](readme_sdk.md)**
+**[Supported devices, SDKs and associated tools](readme_sdk.md)**
 
 <hr>
 
-## Developing GStreamer Applications
+## Developing edge AI applications with GStreamer 
 
 ![GStreamer Applications](https://software-dl.ti.com/jacinto7/esd/processor-sdk-linux-edgeai/TDA4VM/08_06_00/exports/docs/_images/open-src-components.png)
 
-**[Developing GStreamer Applications](readme_apps.md)**
+**[Developing edge AI applications with GStreamer](readme_apps.md)**
 
 <hr>
 
-## Deep Neural Network Model Making Tools
+## Low code / no code Deep Neural Network development tools
+![Low Code / No Code Tools](./assets/edgeaistudio_workflows.png)
+
+**[Low Code / No Code Deep Neural Network development tools](readme_studio.md)**
+
+<hr>
+
+## Advanced Deep Neural Network model development tools
 ![Model training](./assets/neural-networks-icon-small.png)
 
-**[Model Zoo, Model Selection, Model Training, Quantization & Benchmarking Tools](readme_models.md)**
+**[Model zoo, Model selection, Model training, quantization & benchmarking tools](readme_models.md)**
 
 <hr>
 
 ## Publications
 
-Read some of our **[Technical Publications](./readme_publications.md)**
+Read some of our **[Technical publications](./readme_publications.md)**
 
 <hr>
 
 ## Issue Trackers
-**[Issue Tracker for TIDL](https://e2e.ti.com/support/processors/f/791/tags/TIDL)**: Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
+**[Issue tracker for TIDL](https://e2e.ti.com/support/processors/f/791/tags/TIDL)**: Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 
-**[Issue Tracker for EdgeAI SDK](https://e2e.ti.com/support/processors/f/791/tags/EDGEAI)** Please include the tag **EDGEAI** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
+**[Issue tracker for EdgeAI SDK](https://e2e.ti.com/support/processors/f/791/tags/EDGEAI)** Please include the tag **EDGEAI** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 
-**[Issue Tracker for ModelZoo, Model Benchmark & Deep Neural Network Training Software](https://e2e.ti.com/support/processors/f/791/tags/MODELZOO):** Please include the tag **MODELZOO** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
+**[Issue tracker for EDGE-AI-STUDIO](https://www.ti.com/tool/EDGE-AI-STUDIO)** is listed in its introduction page.
+
+**[Issue tracker for ModelZoo, Model Benchmark & Deep Neural Network Training Software](https://e2e.ti.com/support/processors/f/791/tags/MODELZOO):** Please include the tag **MODELZOO** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 
 <hr>
 
