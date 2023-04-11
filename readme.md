@@ -7,14 +7,14 @@ Our documentation landing pages are the following:
 - https://github.com/TexasInstruments/edgeai
 
 <hr>
-Real Time Inference Software & Model Development For Embedded AI Development.
+Real time Deep Neural Network Model development and inference software for embedded AI applications.
 
 <img src="./assets/artificial-intelligence-technology-chipset-on-circuit-board-small.png" width=600>
 
 ## Introduction
-This repository provides several **tools for AI**, including Deep Learning, traditional Machine Learning and Computer Vision. 
+This repository provides **tools for embedded AI on the edge**, including Model training, compilation and deployment. 
 
-Embedded Inference of Deep Learning models is quite challenging - due to high compute requirements. The tools provided here help to optimize and accelerate inference on embedded devices.
+Embedded inference of Deep Learning models is quite challenging - due to high compute requirements. The tools provided here help to optimize and accelerate inference on embedded devices.
 
 <img src="./assets/neural-networks-icon-small.png" width=600>
 
@@ -45,7 +45,7 @@ Embedded Inference of Deep Learning models is quite challenging - due to high co
 ## Advanced Deep Neural Network model development tools
 <img src="./assets/edgeai-development-flow.png" width=600>
 
-**[Model zoo, Model selection, Model training, quantization & benchmarking tools](readme_models.md)**
+**[Model zoo, Model training, quantization & benchmarking tools](readme_models.md)**
 
 <hr>
 
