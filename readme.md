@@ -38,7 +38,7 @@ Embedded Inference of Deep Learning models is quite challenging - due to high co
 ## Low code / no code Deep Neural Network development tools
 <img src="./assets/edgeaistudio_workflows.png" width=600>
 
-**[Low Code / No Code Deep Neural Network development tools](readme_studio.md)**
+**[EDGE AI STUDIO - Low Code / no code Deep Neural Network development tools](readme_studio.md)**
 
 <hr>
 
@@ -58,7 +58,7 @@ Read some of our **[Technical publications](./readme_publications.md)**
 ## Issue Trackers
 **[Issue tracker for TIDL](https://e2e.ti.com/support/processors/f/791/tags/TIDL)**: Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 
-**[Issue tracker for EdgeAI SDK](https://e2e.ti.com/support/processors/f/791/tags/EDGEAI)** Please include the tag **EDGEAI** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
+**[Issue tracker for edge AI SDK](https://e2e.ti.com/support/processors/f/791/tags/EDGEAI)** Please include the tag **EDGEAI** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 
 **[Issue tracker for EDGE-AI-STUDIO](https://www.ti.com/tool/EDGE-AI-STUDIO)** is listed in its introduction page.
 

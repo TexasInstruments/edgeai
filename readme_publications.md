@@ -1,6 +1,6 @@
 # Technical Articles
 
-We have application notes and other documents listed at our main landing page https://www.ti.com/edgeai. Those would be useful to get a high level understanding of our Edge AI offering. The publications listed here are articles covering in-depth technical details and experiments.
+We have application notes and other documents listed at our main landing page https://www.ti.com/edgeai. Those would be useful to get a high level understanding of our edge AI offering. The publications listed here are articles covering in-depth technical details and experiments.
 
 - YOLO-Pose: Enhancing YOLO for Multi Person Pose Estimation Using Object Keypoint Similarity Loss, Debapriya Maji, Soyeb Nagori, Manu Mathew, Deepak Poddar, https://arxiv.org/abs/2204.06806
 
@@ -17,15 +17,15 @@ We have application notes and other documents listed at our main landing page ht
 
 - Process This: A Monthly Webinar Series - Monthly webinars on embedded processing topics from product announcements and technical trainings to market and design trends. https://training.ti.com/process-monthly-webinar-series
 
-- TI Edge AI Academy - Become an expert in AI development in days. Learn with Free Cloud Tools. Build with an 8 TOPS processor starter kit. NO EXPERIENCE needed! https://ti.com/edgeaiacademy
+- TI edge AI Academy - Become an expert in AI development in days. Learn with Free Cloud Tools. Build with an 8 TOPS processor starter kit. NO EXPERIENCE needed! https://ti.com/edgeaiacademy
 
-- TI Edge AI demos - Add embedded intelligence to your design using TI Edge AI and robotics software demos created with TDA4x processors, https://ti.com/edgeaiprojects
+- TI edge AI demos - Add embedded intelligence to your design using TI edge AI and robotics software demos created with TDA4x processors, https://ti.com/edgeaiprojects
 
 
 # Product Documentation Pages
 
 - Embedded Artificial Intelligence, Practical embedded processing solutions for edge AI (Landing Page) https://ti.com/edgeai
 
-- SK-TDA4VM - TDA4VM processor starter kit for Edge AI vision systems, https://www.ti.com/tool/SK-TDA4VM
+- SK-TDA4VM - TDA4VM processor starter kit for edge AI vision systems, https://www.ti.com/tool/SK-TDA4VM
 
 - TDA4VM - Dual Arm® Cortex®-A72, C7x DSP, and deep learning, vision and multimedia accelerators, https://www.ti.com/product/TDA4VM
