@@ -28,17 +28,17 @@ Embedded inference of Deep Learning models is quite challenging - due to high co
 
 <hr>
 
+## Low code / no code development tools
+<img src="./assets/edgeaistudio_workflows.png" width=600>
+
+**[Edge AI Studio - Low Code / no code Deep Neural Network development tools](readme_studio.md)**
+
+<hr>
+
 ## Developing edge AI applications with GStreamer 
 <img src="https://software-dl.ti.com/jacinto7/esd/processor-sdk-linux-edgeai/TDA4VM/08_06_00/exports/docs/_images/open-src-components.png" width=600>
 
 **[Developing edge AI applications with GStreamer](readme_apps.md)**
-
-<hr>
-
-## Low code / no code Deep Neural Network development tools
-<img src="./assets/edgeaistudio_workflows.png" width=600>
-
-**[EDGE AI STUDIO - Low Code / no code Deep Neural Network development tools](readme_studio.md)**
 
 <hr>
 
@@ -56,11 +56,11 @@ Read some of our **[Technical publications](./readme_publications.md)**
 <hr>
 
 ## Issue Trackers
+**Issue tracker for [Edge AI Studio](https://www.ti.com/tool/EDGE-AI-STUDIO)** is listed in its landing page.
+
 **[Issue tracker for TIDL](https://e2e.ti.com/support/processors/f/791/tags/TIDL)**: Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 
 **[Issue tracker for edge AI SDK](https://e2e.ti.com/support/processors/f/791/tags/EDGEAI)** Please include the tag **EDGEAI** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
-
-**[Issue tracker for EDGE-AI-STUDIO](https://www.ti.com/tool/EDGE-AI-STUDIO)** is listed in its introduction page.
 
 **[Issue tracker for ModelZoo, Model Benchmark & Deep Neural Network Training Software](https://e2e.ti.com/support/processors/f/791/tags/MODELZOO):** Please include the tag **MODELZOO** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 
