@@ -35,13 +35,6 @@ Embedded inference of Deep Learning models is quite challenging - due to high co
 
 <hr>
 
-## Developing edge AI applications with GStreamer 
-<img src="https://software-dl.ti.com/jacinto7/esd/processor-sdk-linux-edgeai/TDA4VM/08_06_00/exports/docs/_images/open-src-components.png" width=600>
-
-**[Developing edge AI applications with GStreamer](readme_apps.md)**
-
-<hr>
-
 ## Advanced Deep Neural Network model development tools
 <img src="./assets/edgeai-development-flow.png" width=600>
 
