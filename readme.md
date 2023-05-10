@@ -1,44 +1,43 @@
-# EdgeAI Software And Development Tools
+# Edge AI Software And Development Tools
 
-### Notice
+## Notice
 Our documentation landing pages are the following:
-- https://www.ti.com/edgeai
-- https://dev.ti.com/edgeai
-- https://github.com/TexasInstruments/edgeai
-
-<hr>
-Real time Deep Neural Network Model development and inference software for embedded AI applications.
-
-<img src="./assets/artificial-intelligence-technology-chipset-on-circuit-board-small.png" width=600>
+- https://www.ti.com/edgeai : Technology page summarizing TI’s edge AI software/hardware products 
+- https://github.com/TexasInstruments/edgeai : Landing page for developers to understand overall software and tools offering  
 
 ## Introduction
-This repository provides **tools for embedded AI on the edge**, including Model training, compilation and deployment. 
 
-Embedded inference of Deep Learning models is quite challenging - due to high compute requirements. The tools provided here help to optimize and accelerate inference on embedded devices.
+Embedded inference of Deep Learning models is quite challenging - due to high compute requirements. TI’s Edge AI comprehensive software product help to optimize and accelerate inference on TI’s embedded devices. It supports heterogeneous execution of DNNs across cortex-A based MPUs, TI’s latest generation C7x DSP and DNN accelerator (MMA). 
 
-<img src="./assets/neural-networks-icon-small.png" width=600>
+TI's Edge AI solution simplifies the whole product life cycle of DNN development and deployment by providing a rich set of tools and optimized libraries. 
 
-<hr>
+## Overview
 
-## Supported devices & SDKs
+The figure below provides a high level summary of the relevant tools:<br><img src="assets/workblocks_tools_software.png" width="600">
 
-<img src="./assets/sdk-code-cropped-icon.png" width=600>
+## Details of various tools
 
-**[Supported devices, SDKs and associated tools](readme_sdk.md)**
+The table below provides detailed explanation of each of the tools:
 
-<hr>
+| Category                                                | Tool/Link| Purpose| IS NOT                |
+|---------------------------------------------------------|----------|--------|-----------------------|
+| **Model training & associated tools**                   |[edgeai-modelzoo](https://github.com/TexasInstruments/edgeai-modelzoo)| **Model Zoo**<br>- to provide pretrained models collection and documemtation|      |
+|ditto                                                         |[Model optimization tools](https://github.com/TexasInstruments/edgeai-torchvision)| **Model optimization tools** (QAT, Sparsity, Model surgery)<br>- **QAT**: Quantization Aware Training to improve accuracy with fixed point training<br>- **Model surgery**: Modifies models with minimal loss in accuracy and makes it suitable for TI device ( replaces unsupported operators)<br>- **Model sparsity**: Induces sparsity during training – only applicable for specific devices      |Does not support Tensorflow   |
+|ditto                                                         |[edgeai-torchvision](https://github.com/TexasInstruments/edgeai-torchvision)<br>[edgeai-mmdetection](https://github.com/TexasInstruments/edgeai-mmdetection)<br>[edgeai-yolov5](https://github.com/TexasInstruments/edgeai-yolov5)<br>[edgeai-yolox](https://github.com/TexasInstruments/edgeai-yolox)| Training repositories for various tasks<br>- Provides extensions of popular training repositories (like mmdetection, yolox) with lite version of models|Does not support Tensorflow   |
+| **Inference (and compilation) Tools**                   |[edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools)| To get familiar with model compilation and inference flow<br>- Post training quantization<br>- Benchmark latency with out of box example models (10+)<br>- Compile user / custom model for deployment<br>- Inference of compiled models on X86_PC or TI SOC using file base input and output<br>- Docker for easy development environment setup|- Does not support benchmarking accuracy of models using TIDL with standard datasets, for e.g. - accuracy benchmarking using MS COCO dataset for object detection models. Please refer to edgeai-benchmark for the same.<br>- Does not support Camera, Display and inference based end-to-end pipeline development. Please refer Edge AI SDK for such usage    | 
+|ditto                                                         |[edgeai-benchmark](https://github.com/TexasInstruments/edgeai-benchmark)| Bring your own model and compile, benchmark and generate artifacts for deployment on SDK with camera, inference and display (using edgeai-gst-apps)<br>- Comprehends inference pipeline including dataset loading, pre-processing and post-processing<br>- Benchmarking of accuracy and latency with large data sets<br>- Post training quantization<br>- Docker for easy development environment setup|  |
+| **Integrated environment for training and compilation** |[Edge AI Studio: Model Analyzer](https://www.ti.com/tool/EDGE-AI-STUDIO)|Browser based environment to allow model evaluation with TI EVM farm<br>- Allow model evaluation without and software/hardware setup at user end<br>- User can reserve EVM from TI EVM farm and perform model evaluation using jupyter notebook<br>- Model selection tool: To provide suitable model architectures for TI devices |- Does not support Camera, Display and inference based end-to-end pipeline development. Please refer Edge AI SDK for such usage   |                              |
+|ditto                                                         |[Edge AI Studio: Model Composer](https://www.ti.com/tool/EDGE-AI-STUDIO)|GUI based Integrated environment for data set capture, annotation, training, compilation with connectivity to TI development board<br>- Bring/Capture your own data, annotate, select a model, perform training and generate artifacts for deployment on SDK<br>- Live preview for quick feedback|- Does not support Bring Your Own Model workflow  |
+|ditto                                                         |[Model Maker](https://github.com/TexasInstruments/edgeai-modelmaker)|Command line Integrated environment for training & compilation<br>- Bring your own data, select a model, perform training and generate artifacts for deployment on SDK<br>- Backend tool for model composer (early availability of features compared to Model Composer )|- Does not support Bring Your Own Model workflow  |
+|**Edge AI Software Development Kit**| [Devices & SDKs](readme_sdk.md) |SDK to develop end-to-end AI pipeline with camera, inference and display<br>- Different inference runtime: TFLiteRT, ONNXRT, NEO AI DLR, TIDL-RT<br>- Framework: openVX, gstreamer<br>- Device drivers: Camera, display, networking<br>- OS: Linux, RTOS<br>- May other software modeus: codecs, OpenCV,…|   |
 
-## Low code / no code development tools
-<img src="./assets/edgeaistudio_workflows.png" width=600>
+## Workflows
+Bring your own model (BYOM) workflow:<br><img src="assets/workflow_bring_your_own_model.png" width="600">
 
-**[Edge AI Studio - Low Code / no code Deep Neural Network development tools](readme_studio.md)**
+Train your own model (TYOM) workflow:<br><img src="assets/workflow_train_your_own_model.png" width="600">
 
-<hr>
+Bring your own data (BYOD) workflow:<br><img src="assets/workflow_bring_your_own_data.png" width="600">
 
-## Advanced Deep Neural Network model development tools
-<img src="./assets/edgeai-development-flow.png" width=600>
-
-**[Model zoo, Model training, quantization & benchmarking tools](readme_models.md)**
 
 <hr>
 
