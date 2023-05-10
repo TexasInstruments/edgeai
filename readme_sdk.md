@@ -25,7 +25,7 @@
 * Product information: https://www.ti.com/product/AM69A
 * Development Board: https://www.ti.com/tool/SK-AM69
 * SDK landing page: https://www.ti.com/tool/PROCESSOR-SDK-AM69A
-* Edge AI Linux SDK: To be released by May-End 2023
-* Edge AI SDK documentation: To be released by May-End 2023
+* Edge AI Linux SDK: To be released by May-Mid, 2023
+* Edge AI SDK documentation: To be released by May-Mid, 2023
 
 <hr>
