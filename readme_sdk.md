@@ -13,21 +13,6 @@
 
 <hr>
 
-### AM67A
-* Product information: https://www.ti.com/product/AM67A
-* SDK landing page: https://www.ti.com/tool/PROCESSOR-SDK-AM67A
-* Edge AI Linux SDK: https://www.ti.com/tool/download/PROCESSOR-SDK-LINUX-AM67A
-* Edge AI SDK documentation: https://software-dl.ti.com/jacinto7/esd/processor-sdk-linux-edgeai/AM67A/{version}/exports/docs/common/sdk_overview.html
-
-### TDA4AEN
-* Product information: https://www.ti.com/product/TDA4AEN-Q1
-* Development Board: https://www.ti.com/product/TDA4AEN-Q1#design-development
-* SDK landing page: https://www.ti.com/tool/PROCESSOR-SDK-J722S
-* TIDL Documentation: https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-j722s/{version}/exports/docs/psdk_rtos/docs/user_guide/sdk_components_j722s.html#ti-deep-learning-product-tidl
-* **Note: Models compiled for AM67A can be used in this device also.**
-
-<hr>
-
 ### AM68A
 * Product information: https://www.ti.com/product/AM68A
 * Development Board: https://www.ti.com/tool/SK-AM68
