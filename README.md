@@ -4,6 +4,7 @@
 Our documentation landing pages are the following:
 - https://www.ti.com/edgeai : Technology page summarizing TI’s edge AI software/hardware products 
 - https://github.com/TexasInstruments/edgeai : Landing page for developers to understand overall software and tools offering  
+- **Our repositories have been restructured** : Please navigate to the tables below to understand how several repositories are now packaged inside edgeai-tensorlab
 
 ## Introduction
 
