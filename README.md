@@ -28,13 +28,9 @@ The table below provides detailed explanation of each of the tools:
 
 <hr>
 
-| Category                                                | Tool/Link   | Purpose  | IS NOT    |
-|---------------------------------------------------------|-------------|-------|--------------|
-| **Model Zoo, Model training, compilation/benchmark & associated tools** | [edgeai-tensorlab](https://github.com/TexasInstruments/edgeai-tensorlab)                                                                                                                       | To provide model training software, collection of pretrained models and documemtation  and compilation/benchmark scripts   | |
-| **Model training & associated tools**                   | [edgeai-modelzoo](https://github.com/TexasInstruments/edgeai-tensorlab/edgeai-modelzoo)                                                                                                        | **Model Zoo**<br>- To provide collection of pretrained models and |      |
-|ditto                                                         | [edgeai-torchvision](https://github.com/TexasInstruments/edgeai-tensorlab/edgeai-torchvision)<br>[edgeai-mmdetection](https://github.com/TexasInstruments/edgeai-tensorlab/edgeai-mmdetection) | Training repositories for various tasks<br>- Provides extensions of popular training repositories (like mmdetection, yolox) with lite version of models   |- Does not support Tensorflow   |
-|ditto                                                         | [edgeai-benchmark](https://github.com/TexasInstruments/edgeai-tensorlab/edgeai-benchmark)                                                                                                      | Bring your own model and compile, benchmark and generate artifacts for deployment on SDK with camera, inference and display (using edgeai-gst-apps)<br>- Comprehends inference pipeline including dataset loading, pre-processing and post-processing<br>- Benchmarking of accuracy and latency with large data sets<br>- Post training quantization<br>- Docker for easy development environment setup                                            |  |
-|ditto                                                         | [Model Maker](https://github.com/TexasInstruments/edgeai-tensorlab/edgeai-modelmaker)              | Command line Integrated environment for training & compilation<br>- Bring your own data, select a model, perform training and generate artifacts for deployment on SDK<br>- Backend tool for model composer (early availability of features compared to Model Composer )  |- Does not support Bring Your Own Model workflow  |
+| Category                                                | Tool/Link       | Purpose           | IS NOT    |
+|---------------------------------------------------------|-----------------|-------------------|-----------|
+| **Model Zoo, Model training, compilation/benchmark & associated tools** | [edgeai-tensorlab](https://github.com/TexasInstruments/edgeai-tensorlab)   | To provide model training software, collection of pretrained models and documemtation  and compilation/benchmark scripts. Includes edgeai-modelzoo, edgeai-benchmark, edgeai-modelmaker, edgeai-torchvision, edgeai-mmdetection and such repositories.      | |
 
 
 ## Workflows
