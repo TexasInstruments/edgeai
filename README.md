@@ -7,10 +7,6 @@ Our documentation landing pages are the following:
 - **Our repositories have been restructured** : Please navigate to the tables below to understand how several repositories are now packaged inside [edgeai-tensorlab](https://github.com/TexasInstruments/edgeai-tensorlab)
 
 
-## Release Notes
-Please see the [release notes](https://github.com/TexasInstruments/edgeai-tensorlab/blob/main/edgeai-modelzoo/docs/release_notes.md)
-
-
 ## Introduction
 
 Embedded inference of Deep Learning models is quite challenging - due to high compute requirements. TI’s Edge AI comprehensive software product help to optimize and accelerate inference on TI’s embedded devices. It supports heterogeneous execution of DNNs across cortex-A based MPUs, TI’s latest generation C7x DSP and DNN accelerator (MMA). 
