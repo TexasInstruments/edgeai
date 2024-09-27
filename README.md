@@ -1,11 +1,24 @@
 # Edge AI Software And Development Tools
 
+<hr>
+
+## Release Notes
+
+- [2024-September] 10.0 release has been done. SDKs, edgeai-tidl-tools and edgeai-tensorlab has been updated.
+
+Further details are in the [Release Notes](./docs/release_notes.md). 
+
+Also see the SDKs release notes, [edgeai-tidl-tools release notes](https://github.com/TexasInstruments/edgeai-tidl-tools/releases) and [edgeai-tensorlab release notes](https://github.com/TexasInstruments/edgeai-tensorlab/blob/main/docs/release_notes.md)
+
+<hr>
+
 ## Notice
 Our documentation landing pages are the following:
 - https://www.ti.com/edgeai : Technology page summarizing TI’s edge AI software/hardware products 
 - https://github.com/TexasInstruments/edgeai : Landing page for developers to understand overall software and tools offering  
 - **Our repositories have been restructured** : Please navigate to the tables below to understand how several repositories are now packaged inside [edgeai-tensorlab](https://github.com/TexasInstruments/edgeai-tensorlab)
 
+<hr>
 
 ## Introduction
 
@@ -16,6 +29,8 @@ TI's Edge AI solution simplifies the whole product life cycle of DNN development
 ## Overview
 
 The figure below provides a high level summary of the relevant tools:<br><img src="assets/workblocks_tools_software.png" width="800">
+
+<hr>
 
 ## Details of various tools
 
@@ -36,6 +51,8 @@ The table below provides detailed explanation of each of the tools:
 | **Model Zoo, Model training, compilation/benchmark & associated tools** | [edgeai-tensorlab](https://github.com/TexasInstruments/edgeai-tensorlab)   | To provide model training software, collection of pretrained models and documemtation  and compilation/benchmark scripts. Includes edgeai-modelzoo, edgeai-benchmark, edgeai-modeloptimization, edgeai-modelmaker, edgeai-torchvision, edgeai-mmdetection and such repositories.      | |
 
 
+<hr>
+
 ## Workflows
 Bring your own model (BYOM) workflow:<br><img src="assets/workflow_bring_your_own_model.png" width="600">
 
@@ -43,12 +60,19 @@ Train your own model (TYOM) workflow:<br><img src="assets/workflow_train_your_ow
 
 Bring your own data (BYOD) workflow:<br><img src="assets/workflow_bring_your_own_data.png" width="600">
 
+<hr>
+
+## Tech Reports
+
+Technical documentation can be found in the documentation of each repository. Here we have a collection of technical reports & tutorials that give high level overview on various topics.
+
+- [**Edge AI Tech Reports in edgeai-tensorlab**](https://github.com/TexasInstruments/edgeai-tensorlab/blob/main/docs/tech_reports/README.md)
 
 <hr>
 
 ## Publications
 
-Read some of our **[Technical publications](./readme_publications.md)**
+- Read some of our [**Technical publications**](./readme_publications.md)
 
 <hr>
 
@@ -63,17 +87,5 @@ Read some of our **[Technical publications](./readme_publications.md)**
 
 <hr>
 
-## What is New
-- [2023-Dec] Updated link to Model Optimization Tools 
-- [2023-May] Documentation update and restructure.
-- [2023-March] Several of these repositories have been updated
-- [2022-April] Several of these repositories have been updated
-- [2021-August] Several of our repositories are being moved from git.ti.com to github.com
-- [2021-December-21] Several of our repositories are being updated in preparation for the 8.1 (08_01_00_xx) release. These include edgeai-tidl-tools, edgeai-benchmark, edgeai-modelzoo and edgeai-torchvision. A new version of PROCESSOR-SDK-LINUX-SK-TDA4VM that corresponds to this will be available in a few days.
-- [2022-April-5] Several of the repositories are being updated in preparation for the 8.2 (08_02_00_xx) release. 
-
-<hr>
-
-
 ## License
-Please see the [LICENSE](./LICENSE) file for more information about the license under which this landing repository is made available. The LICENSE file of each repository mentioned here is inside that repository.
+Please see the [LICENSE](./LICENSE) file for more information about the license under which this landing repository is made available. The LICENSE file of each repository is inside that repository.
