@@ -1,8 +1,5 @@
 # Tiny ML Software And Development Tools
 
-## Notice
-- https://github.com/TexasInstruments/tinyml : Landing page for developers to understand overall software and tools offering  
-
 ## Introduction
 
 Analytics for TI's Application Specific Microcontrollers (MCUs)
