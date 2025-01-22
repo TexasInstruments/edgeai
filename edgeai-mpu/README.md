@@ -1,4 +1,4 @@
-# Edge AI Software And Development Tools
+# Edge AI Software And Development Tools for Micro Processor devices with Linux and TIDL support
 
 <hr>
 

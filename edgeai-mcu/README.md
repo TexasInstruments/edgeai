@@ -1,4 +1,4 @@
-# Tiny ML Software And Development Tools
+# Edge AI / Tiny ML Software And Development Tools for Micro Controller devices
 
 ## Introduction
 
