@@ -4,7 +4,7 @@
 
 ## Release Notes
 
-- [2024-September] 10.0 release has been done. SDKs, edgeai-tidl-tools and edgeai-tensorlab has been updated.
+- [2024 Dec ~ 2025 March] 10.1 release. SDKs, edgeai-tidl-tools and edgeai-tensorlab has been updated.
 
 Further details are in the [Release Notes](./docs/release_notes.md). 
 
