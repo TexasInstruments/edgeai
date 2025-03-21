@@ -15,6 +15,7 @@
 
 ### AM67A
 * Product information: https://www.ti.com/product/AM67A
+* Development Board: https://www.ti.com/tool/J722SXH01EVM
 * SDK landing page: https://www.ti.com/tool/PROCESSOR-SDK-AM67A
 * Edge AI Linux SDK: https://www.ti.com/tool/download/PROCESSOR-SDK-LINUX-AM67A
 * Edge AI SDK documentation: https://software-dl.ti.com/jacinto7/esd/processor-sdk-linux-edgeai/AM67A/{version}/exports/docs/common/sdk_overview.html
