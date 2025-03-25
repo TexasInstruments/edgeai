@@ -18,6 +18,8 @@ Embedded inference of Deep Learning models is quite challenging - due to high co
 
 TI's Edge AI solution simplifies the whole product life cycle of DNN development and deployment by providing a rich set of tools and optimized libraries. 
 
+See our [Getting Started guide](./getting_started.md) for AM6xA and TDA4x with Edge AI and TI Deep Learning
+
 ## Overview
 
 The figure below provides a high level summary of the relevant tools:<br><img src="assets/workblocks_tools_software.png" width="800">
