@@ -3,15 +3,15 @@
 This guide will focus on guiding you to the right resources, tools, examples, and documents for new users of TI's Edge AI solution for microprocessor (MPU) devices. This is a high-level, technical document intended for developers. 
 
 **Quick links for developers:**
-* [Skip straight to the details and start](#getting-start-with-your-selected-processor)
+* [Skip straight to the details and start](#getting-started-with-your-selected-processor)
 * [Understand the AI model development flow](#ti-edge-ai-model-development-flow)
 
 Here we will focus on accelerated Edge AI devices from the AM6xA and TDA4x family of industrial and automotive processors. These feature the C7x-MMA neural network accelerator, which combines a SIMD-DSP and matrix multiplication accelerator for fast execution of neural nets. 
-* Such devices are focused on computer vision and perception, featuring additional hardware acceleration for other vision functions like ISP, lens distortion correction, image scaling, stereo depth estimation[^1], and optical flow[^1]
+* Such devices are focused on computer vision and perception, featuring additional hardware acceleration for other vision functions like ISP, lens distortion correction, image scaling, stereo depth estimation[^1], and optical flow[^1].
 
 Please find our demo applications and use-cases on [ti.com/edgeaiprojects](https://www.ti.com/edgeaiprojects) and from our [TexasInstruments-Sandbox Github repositories](https://github.com/TexasInstruments-Sandbox?q=edgeai&type=all&language=&sort=)
 
-[^1] Stereo depth and optical flow are part of the "DMPAC" accelerator, which is only on select processors
+[^1]: Stereo depth and optical flow are part of the "DMPAC" accelerator, which is only on select processors
 
 ## Overview
 
@@ -34,12 +34,12 @@ Key considerations include:
     *  Arm A-cores for high level operating system and general compute
     *  MCU/Real-time cores for IO, functional safety
 4) IO and peripherals for external devices and networking, e.g. USB, PCIe, SPI, Ethernet 
-5) Additional hardware acceleration needs, like GPU or stereo-depth accelerator\
+5) Additional hardware acceleration needs, like GPU or stereo-depth accelerator
 6) Power budget and thermal dissipation
 
 If you are not yet sure which processor to use, TI has resources to help decide without needing any development kits. The [following section](#low-touch-processor-evaluation-in-the-cloud) is geared to assist consideration #1 for AI processing capabilities.
 
-If you have selected a processor already, skip ahead to a later section and [evaluate with local hardware](#getting-start-with-your-selected-processor)
+If you have selected a processor already, skip ahead to a later section and [evaluate with local hardware](#getting-started-with-your-selected-processor)
 
 
 #### Low-touch processor evaluation in the cloud
@@ -62,7 +62,7 @@ Follow these guidelines for Edge AI development:
 3) Evaluate the [out-of-box demo and sample end-to-end pipelines](https://software-dl.ti.com/processor-sdk-linux/esd/AM62AX/latest/exports/edgeai-docs/common/sample_apps.html) on models from [TI's model zoo](./README.md#details-of-various-tools). 
 4) Bring your AI task onto the processor by compiling and running models for your target hardware.
     * Compile models yourself with [edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools) -- Recommended to first try with [pre-validated examples](https://github.com/TexasInstruments/edgeai-tidl-tools?tab=readme-ov-file#validate-and-benchmark-out-of-box-examples), especially Python3 examples.
-    * Bring your own model (BYOM) and compile for the processor with [edgeai-tidl-tools custom model flow](./https://github.com/TexasInstruments/edgeai-tidl-tools/blob/master/docs/custom_model_evaluation.md#custom-model-evaluation), using Python. 
+    * Bring your own model (BYOM) and compile for the processor with [edgeai-tidl-tools custom model flow](https://github.com/TexasInstruments/edgeai-tidl-tools/blob/master/docs/custom_model_evaluation.md#custom-model-evaluation), using Python. 
         * Please note: The more unique/custom your model is, the more likely you will need to modify the code to handle preprocessing and postprocessing.
 5) Test and optimize your model for performance and accuracy
     * Embedded AI accelerators typically use fixed-point math rather than floating point to speed up processing time. Some accuracy loss is expected -- TI has tooling to mitigate this. 
