@@ -3,15 +3,15 @@
 This guide will focus on guiding you to the right resources, tools, examples, and documents for new users of TI's Edge AI solution for microprocessor (MPU) devices. This is a high-level, technical document intended for developers. 
 
 **Quick links for developers:**
-* [Skip straight to the details and start](#getting-start-with-your-selected-processor)
+* [Skip straight to the details and start](#getting-started-with-your-selected-processor)
 * [Understand the AI model development flow](#ti-edge-ai-model-development-flow)
 
 Here we will focus on accelerated Edge AI devices from the AM6xA and TDA4x family of industrial and automotive processors. These feature the C7x-MMA neural network accelerator, which combines a SIMD-DSP and matrix multiplication accelerator for fast execution of neural nets. 
-* Such devices are focused on computer vision and perception, featuring additional hardware acceleration for other vision functions like ISP, lens distortion correction, image scaling, stereo depth estimation[^1], and optical flow[^1]
+* Such devices are focused on computer vision and perception, featuring additional hardware acceleration for other vision functions like ISP, lens distortion correction, image scaling, stereo depth estimation[^1], and optical flow[^1].
 
 Please find our demo applications and use-cases on [ti.com/edgeaiprojects](https://www.ti.com/edgeaiprojects) and from our [TexasInstruments-Sandbox Github repositories](https://github.com/TexasInstruments-Sandbox?q=edgeai&type=all&language=&sort=)
 
-[^1] Stereo depth and optical flow are part of the "DMPAC" accelerator, which is only on select processors
+[^1]: Stereo depth and optical flow are part of the "DMPAC" accelerator, which is only on select processors
 
 ## Overview
 
