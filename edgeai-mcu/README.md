@@ -14,7 +14,7 @@
 * **F2837**: Product information: https://www.ti.com/product/TMS320F28377D
 * **F28004**: Product information: https://www.ti.com/product/TMS320F280049C
 * **F28003**: Product information: https://www.ti.com/product/TMS320F280039C
-* **PM0G3507**: Product information: https://www.ti.com/product/MSPM0G3507
+* **M0G3507**: Product information: https://www.ti.com/product/MSPM0G3507
 
 Coming Soon:
 * Radar, Connectivity and Sitara MCU+ devices
