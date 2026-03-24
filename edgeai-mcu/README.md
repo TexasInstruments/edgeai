@@ -1,11 +1,11 @@
-# Edge AI / Tiny ML Software And Development Tools for Micro Controller devices
+# Edge AI / Tiny ML Software and Development Tools for Microcontrollers
 
 ## 1. Introduction
 
 **Analytics for TI's Application Specific Microcontrollers (MCUs)**
 * The integration of Artificial Intelligence (AI) on the edge, particularly on Microcontrollers (MCUs), has revolutionized the way we approach data processing and analysis. Edge AI MCU applications offer numerous advantages, including reduced latency, improved real-time decision-making, and enhanced security. One of the key drivers of this trend is TinyML, a subset of machine learning that enables AI models to run on resource-constrained devices like MCUs. By leveraging TinyML, developers can deploy AI models on MCUs, allowing for the analysis of time-series data from various sensors such as current sensors, accelerometers, and vibration sensors.
 
-* **Texas Instruments (TI)** offers a range of devices that support Edge AI applications, including the C2000, F28x, and F29x families, as well as the MSPM0 and Connectivity MCUs. The company's product roadmap is focused on providing a comprehensive portfolio of devices that cater to the growing demand for Edge AI applications. Additionally, TI's solution offering includes Bring Your Own Device (BYOD) and Bring Your Own Model (BYOM) workflows, which enable developers to seamlessly integrate their own devices and models with TI's Edge AI ecosystem.
+* **Texas Instruments (TI)** offers a range of devices that support Edge AI applications, including C2000™ (F28x and F29x) devices, as well as the MSPM0 and Connectivity MCUs. The company's product roadmap is focused on providing a comprehensive portfolio of devices that cater to the growing demand for Edge AI applications. Additionally, TI's solution offering includes Bring Your Own Device (BYOD) and Bring Your Own Model (BYOM) workflows, which enable developers to seamlessly integrate their own devices and models with TI's Edge AI ecosystem.
 
 ### 1.1 Devices Supported
 
@@ -17,7 +17,7 @@
 * **M0G3507**: Product information: https://www.ti.com/product/MSPM0G3507
 
 Coming Soon:
-* Radar, Connectivity and Sitara MCU+ devices
+* Radar, Connectivity and AM2x devices
 
 
 <hr>
@@ -60,9 +60,9 @@ TI offers a comprehensive range of software tools to support the development of 
 
 | Category                                      | Tool/Link                                                                                                           | Purpose                                                                                                                                                                                                | IS NOT |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| **Edge AI Studio Model Composer**             | [Edge AI Studio Model Composer](https://dev.ti.com/modelcomposer/)                                                  | GUI based, No-Code AI development for MCUs and MPUs - Data Capture, Annotation, Model Training, Compilation and Live Preview (MCU support coming in Nov 2024)                                          |        |
+| **Edge AI Studio**             | [Edge AI Studio](https://www.ti.com/tool/EDGE-AI-STUDIO/)                                                  | GUI based, No-Code AI development for MCUs and MPUs - Data Capture, Annotation, Model Training, Compilation and Live Preview                                         |        |
 | **Tiny ML Model development for MCUs**        | [tinyml-tensorlab](https://github.com/TexasInstruments/tinyml-tensorlab)                                            | Commandline based development for advanced users - Model Zoo, ModelMaker, Model Optimization Tools, Model training, compilation, examples and other tools. Browse the link for detailed documentation. |        |
-| **Tiny ML Model Optimization Toolkit**        | [tinyml-modeloptimization](https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modeloptimization) | This open-source software framework provides a flexibility for customers with their own training frameworks to optimize their models for TI devices with Hardware Accelerators/ NPUs.                  |        |
+| **Tiny ML Model Optimization Toolkit**        | [tinyml-modeloptimization](https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modeloptimization) | This open-source software framework provides a flexibility for customers with their own training frameworks to optimize their models for TI devices with TinyEngine™ NPUs.                  |        |
 | **Neural Network Compilation Tools for MCUs** | [Neural Network Compiler for MCUs](https://software-dl.ti.com/mctools/nnc/mcu/users_guide/)                         | Compile Neural Network Models for accelerated inference in TI MCUs                                                                                                                                     |        |
 
 <hr>
@@ -71,7 +71,7 @@ TI offers a comprehensive range of software tools to support the development of 
 
 TI provides a range of benchmarks for Edge AI models and devices, including:
 * Models: TI's tinyml-modelzoo repository provides a range of pre-trained models for various applications, including image classification, object detection, and speech recognition. These models can be used as benchmarks for evaluating the performance of Edge AI systems.  (Refer this: https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modelzoo )
-* Devices: TI provides benchmarks for its range of MCUs, including the C2000, F28x, and F29x families, as well as the MSPM0 and Connectivity MCUs. These benchmarks provide a measure of the performance and power consumption of these devices in various Edge AI applications.
+* Devices: TI provides benchmarks for its range of MCUs, including C2000, MSPM0 and Connectivity MCUs. These benchmarks provide a measure of the performance and power consumption of these devices in various Edge AI applications.
 
 <hr>
 
