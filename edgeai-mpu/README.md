@@ -29,24 +29,42 @@ The figure below provides a high level summary of the relevant tools:<br><img sr
 
 ## Details of various tools
 
-The table below provides detailed explanation of each of the tools:
+### Model compilation & Model Zoo
 
 | Category                                                | Tool/Link| Purpose     | IS NOT                |
 |---------------------------------------------------------|----------|-------------|-----------------------|
 | **Inference and compilation Tools** |[edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools)| Compile ONNX and TFLite models and run model inference in PC emulation and on target hardware with simple python scripts and C++ applications<br>- Benchmark latency with out of box example models (10+)<br>- Compile user / custom model for deployment<br>- Inference of compiled models on X86_PC or TI SOC using file base input and output<br>- Core [documentation](https://github.com/TexasInstruments/edgeai-tidl-tools/tree/master/docs) for TI Deep Learning<br>- Automated optimizations for ONNX-format models<br>- Docker for easy development environment setup |- Does not support benchmarking accuracy of models using TIDL with standard datasets, for example - accuracy benchmarking using MS COCO dataset for object detection models. Please refer to edgeai-tidlrunner or edgeai-benchmark.<br>- Does not support Camera, Display and inference based end-to-end pipeline development. Please refer to the SDK    | 
 | **Inference and compilation Tools** |[edgeai-tidlrunner](https://github.com/TexasInstruments/edgeai-tidlrunner)| Command-line tool for model compilation, inference, accuracy benchmark, model optimization, analysis, and visualized model inspection<br>- No scripting required; set all model settings via command-line arguments or config file |- Does not support Camera, Display and inference based end-to-end pipeline development. Please refer Edge AI SDK for such usage<br>- Supports TI SOC and x86 PC    | 
-| **Model Selection Tool** |[Model Selection Tool](https://dev.ti.com/gallery/view/edgeai/edgeai-modelselection) | Understand validated models' performance statistics such as FPS, latency, DDR bandwidth and accuracy (for standard datasets like imagenet1k). Find the model that best meets your performance and accuracy goals on TI Processor from TI Model Zoo.| |
-| **Integrated environment for Model training and compilation** |[Edge AI Studio](https://www.ti.com/tool/EDGE-AI-STUDIO)| Part of the CCStudio™ development ecosystem. GUI based Integrated environment for data set capture, annotation, training, compilation with connectivity to TI development board<br>- Bring/Capture your own data, annotate, select a model, perform training and generate artifacts for deployment on SDK<br>- Live preview for quick feedback |- Does not support Bring Your Own Model workflow  |
-| **Model Evaluation** |[Model Analyzer](https://www.ti.com/tool/EDGE-AI-STUDIO)| Browser based environment to allow model evaluation with TI EVM farm<br>- Allow model evaluation without and software/hardware setup at user end<br>- User can reserve EVM from TI EVM farm and perform model evaluation using jupyter notebook |- Does not support Camera, Display and inference based end-to-end pipeline development. Please refer Edge AI SDK for such usage<br>- Does not give full access to the target processor; limited to on-target model inference and benchmarking results   | 
-| **Edge AI Software Development Kit**|[Devices & SDKs](readme_sdk.md) | SDK to develop end-to-end AI pipeline with camera, inference and display<br>- Different inference runtime: TFLite/LiteRT, ONNXRT, TVM, TIDL-RT<br>- Framework: openVX, gstreamer<br>- Device drivers: Camera, display, networking<br>- OS: Linux, RTOS<br>- Many other software modules: codecs, OpenCV, OpenGL, …   | Does not support model compilation: this is supported only on an x86 machine  |
+| **Model Zoo** |[Model Zoo](https://github.com/TexasInstruments/edgeai-modelzoo) | TI Model Zoo (example models) for MPU Edge AI. (also part of edgeai-tensorlab) | |
+| **ONNX Model surgery** | [Documentation](https://github.com/TexasInstruments/edgeai-tidl-tools/tree/master/osrt-model-tools/osrt_model_tools/onnx_tools/tidl_onnx_model_optimizer), [Setup](https://github.com/TexasInstruments/edgeai-tidl-tools/tree/master/osrt-model-tools) | ONNX Model surgery to help TIDL Moidel compilation - convert operators that are unsupported in TIDL to supported operators (wherver possible) | | 
 
 
 <hr>
 
+### Model training
+
 | Category                                                | Tool/Link       | Purpose           | IS NOT    |
 |---------------------------------------------------------|-----------------|-------------------|-----------|
-| **Model Zoo, Model training, compilation/benchmark & associated tools** | [edgeai-tensorlab](https://github.com/TexasInstruments/edgeai-tensorlab)   | Provide model training software, collection of pretrained models with documentation and compilation/benchmark scripts. <br>Includes edgeai-modelzoo, edgeai-benchmark, edgeai-modeloptimization, edgeai-modelmaker, edgeai-torchvision, and model-training repo forks like edgeai-mmdetection.      |  |
+| **Model training, compilation/benchmark & associated tools** | [edgeai-tensorlab](https://github.com/TexasInstruments/edgeai-tensorlab)   | Provide model training software, collection of pretrained models with documentation and compilation/benchmark scripts. <br>Includes edgeai-modelzoo, edgeai-benchmark, edgeai-modeloptimization, edgeai-modelmaker, edgeai-torchvision, and model-training repo forks like edgeai-mmdetection.      |  |
+| **PyTorch Model Optimization** | [edgeai-modeloptimization](https://github.com/TexasInstruments/edgeai-modeloptimization)   | Tools and utilities to help the development of embedded friendly Neural Network Models in Pytorch.      |  |
 
+<hr> 
+
+### GUI & Integrated environment
+
+| Category                                                | Tool/Link| Purpose     | IS NOT                |
+|---------------------------------------------------------|----------|-------------|-----------------------|
+| **Model Selection Tool** |[Model Selection Tool](https://dev.ti.com/gallery/view/edgeai/edgeai-modelselection) | Understand validated models' performance statistics such as FPS, latency, DDR bandwidth and accuracy (for standard datasets like imagenet1k). Find the model that best meets your performance and accuracy goals on TI Processor from TI Model Zoo.| |
+| **Integrated environment for Model training and compilation** |[Edge AI Studio](https://www.ti.com/tool/EDGE-AI-STUDIO)| Part of the CCStudio™ development ecosystem. GUI based Integrated environment for data set capture, annotation, training, compilation with connectivity to TI development board<br>- Bring/Capture your own data, annotate, select a model, perform training and generate artifacts for deployment on SDK<br>- Live preview for quick feedback |- Does not support Bring Your Own Model workflow  |
+| **Model Evaluation** |[Model Analyzer](https://www.ti.com/tool/EDGE-AI-STUDIO)| Browser based environment to allow model evaluation with TI EVM farm<br>- Allow model evaluation without and software/hardware setup at user end<br>- User can reserve EVM from TI EVM farm and perform model evaluation using jupyter notebook |- Does not support Camera, Display and inference based end-to-end pipeline development. Please refer Edge AI SDK for such usage<br>- Does not give full access to the target processor; limited to on-target model inference and benchmarking results   | |
+
+<hr> 
+
+### SDK
+
+| Category                                                | Tool/Link| Purpose     | IS NOT                |
+|---------------------------------------------------------|----------|-------------|-----------------------|
+| **Edge AI Software Development Kit**|[Devices & SDKs](readme_sdk.md) | SDK to develop end-to-end AI pipeline with camera, inference and display<br>- Different inference runtime: TFLite/LiteRT, ONNXRT, TVM, TIDL-RT<br>- Framework: openVX, gstreamer<br>- Device drivers: Camera, display, networking<br>- OS: Linux, RTOS<br>- Many other software modules: codecs, OpenCV, OpenGL, …   | Does not support model compilation: this is supported only on an x86 machine  |
 
 <hr>
 
