@@ -8,12 +8,13 @@ For details, see [edgeai-tidl-tools release notes](https://github.com/TexasInstr
 
 ### [2026 March 24] 
 - Updated documentation with details from 11.2 release. 
-- Our recommended tool for model benchmark is now [edgeai-tidlrunner](https://github.com/TexasInstruments/edgeai-tidlrunner) instead of edgeai-benchmark- it supports a simple commandline and config file based interfaces that are easier to use.
+- Our recommended tool for model benchmark is now [edgeai-tidlrunner](https://github.com/TexasInstruments/edgeai-tidlrunner) instead of edgeai-benchmark
 
 ### [2026 March 10] 
-- Edgeai-tidlrunner release and edgeai-tidl-tools refactor - with easier to use interface and scripts.
+- **edgeai-tidlrunner** release - simple commandline interface for BYOM - Model compilation, accuracy & performacne benchmark, analysis/debug - more features coming soon.
+- **edgeai-tidl-tools** refactoring and simplification - with easier to use interface and scripts.
 
-More details are [here](./release_notes.md)
+Additional information is [here](./release_notes.md)
 
 <hr>
 
