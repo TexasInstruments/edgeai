@@ -1,6 +1,6 @@
 #### Notes
 - Note 1: In the below links, replace the field {version} with specific version of SDK (for example 09_01_00 or with latest). Versions of SDK can be found at the SDK download page of the device.
-- Note 2: Additional information is available here: https://github.com/TexasInstruments/edgeai-tidl-tools#supported-devices
+- Note 2: Additional information is available here: https://github.com/TexasInstruments/edgeai-tidl-tools#supported-devices-and-compatibility
 
 ## Supported Devices & SDKs
 
