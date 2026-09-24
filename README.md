@@ -6,9 +6,29 @@ Whether building intelligent sensors, predictive maintenance systems, or autonom
 
 ## Getting started
 These are the documentation landing pages to get started
-- https://www.ti.com/edgeai - Technology page summarizing TI’s edge AI software/hardware products
-- https://github.com/TexasInstruments/edgeai - This current page for developers to understand overall software and tools offering
 
+<table>
+<tr>
+<td align="center" width="50%">
+
+[![TI Edge AI technology page](assets/icons/new/publication-icon.svg ':size=90')](https://www.ti.com/edgeai)
+
+#### [ti.com/edgeai](https://www.ti.com/edgeai)
+
+Technology page summarizing TI’s edge AI software/hardware products
+
+</td>
+<td align="center" width="50%">
+
+[![Edge AI developer overview](assets/icons/new/getting-started-icon.svg ':size=90')](https://github.com/TexasInstruments/edgeai)
+
+#### [github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)
+
+This current page for developers to understand overall software and tools offering
+
+</td>
+</tr>
+</table>
 
 ## Edge AI devices and software
 

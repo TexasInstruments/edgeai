@@ -1,81 +1,116 @@
 # Edge AI / Tiny ML Software and Development Tools for Microcontrollers
 
-## 1. Introduction
+Analytics for TI's Application Specific Microcontrollers (MCUs) - TinyML brings AI models to resource-constrained devices like C2000™ (F28x/F29x), MSPM0 and Connectivity MCUs, enabling real-time analysis of sensor data such as current, accelerometer and vibration signals.
 
-**Analytics for TI's Application Specific Microcontrollers (MCUs)**
-* The integration of Artificial Intelligence (AI) on the edge, particularly on Microcontrollers (MCUs), has revolutionized the way we approach data processing and analysis. Edge AI MCU applications offer numerous advantages, including reduced latency, improved real-time decision-making, and enhanced security. One of the key drivers of this trend is TinyML, a subset of machine learning that enables AI models to run on resource-constrained devices like MCUs. By leveraging TinyML, developers can deploy AI models on MCUs, allowing for the analysis of time-series data from various sensors such as current sensors, accelerometers, and vibration sensors.
-
-* **Texas Instruments (TI)** offers a range of devices that support Edge AI applications, including C2000™ (F28x and F29x) devices, as well as the MSPM0 and Connectivity MCUs. The company's product roadmap is focused on providing a comprehensive portfolio of devices that cater to the growing demand for Edge AI applications. Additionally, TI's solution offering includes Bring Your Own Device (BYOD) and Bring Your Own Model (BYOM) workflows, which enable developers to seamlessly integrate their own devices and models with TI's Edge AI ecosystem.
-
-### 1.1 Devices Supported
-
-* **F28P55**: Product information: https://www.ti.com/product/TMS320F28P550SJ
-* **F28P65**: Product information: https://www.ti.com/product/TMS320F28P650DK
-* **F2837**: Product information: https://www.ti.com/product/TMS320F28377D
-* **F28004**: Product information: https://www.ti.com/product/TMS320F280049C
-* **F28003**: Product information: https://www.ti.com/product/TMS320F280039C
-* **M0G3507**: Product information: https://www.ti.com/product/MSPM0G3507
-
-Coming Soon:
-* Radar, Connectivity and AM2x devices
-
+📖 [Full details of every tool](DETAILS.md)
 
 <hr>
 
-## 	2. BYOD and BYOM Workflows: 
+## Tools for every role
 
-* TI's **BYOD** and **BYOM** workflows provide developers with the flexibility to use their own devices and models with TI's Edge AI solutions. These workflows enable developers to:
-  * **Bring Your Own Data (BYOD)**: Use their own data or collect data with TI's Edge AI software tools and frameworks. This allows developers to leverage their existing investments and integrate TI's Edge AI solutions with TI's devices.
-  * **Bring Your Own Model (BYOM)**: Use their own AI models with TI's Edge AI software tools and frameworks. This allows developers to leverage their existing model development investments and integrate their own models with TI's Edge AI solutions.
-  
+<table>
+<tr>
+<th width="50%">For ML Engineers</th>
+<th width="50%">For Embedded Engineers</th>
+</tr>
+<tr>
+<td>
 
-* The **BYOD** and **BYOM** workflows provide several benefits, including:
-  * Reduced Development Time: Developers can quickly integrate their own data and models with TI's Edge AI solutions, reducing the time and effort required to develop and deploy Edge AI applications.
-  * Increased Flexibility: Developers can use their own data and models, providing them with the flexibility to choose the best solutions for their specific use cases.
-  * Improved Performance: Developers can optimize their own data collected and models for their specific use cases, resulting in improved performance and efficiency.
+![Model Zoo](../assets/icons/new/model-zoo-icon.svg ':size=44') **[Model Zoo](https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modelzoo)**
 
-* TI's Edge AI software tools and frameworks provide a range of features and functionalities to support the BYOD and BYOM workflows, including:
-  * Device Abstraction: TI's Edge AI software tools provide device abstraction layers that enable developers to use same application but deploy it on different TI devices.
-  * Model Import: TI's Edge AI software tools provide model import features that enable developers to import their own AI models and integrate them with TI's Edge AI solutions.
-  * Optimization: TI's Edge AI software tools provide optimization features that enable developers to optimize their own devices and models for their specific use cases.
+Pretrained TinyML models for classification, detection and more.
+
+</td>
+<td>
+
+![Devices Supported](../assets/icons/ti/processor-chip-icon.svg ':size=44') **[Devices Supported](DETAILS.md)**
+
+C2000™ (F28x/F29x), MSPM0 and Connectivity MCUs.
+
+</td>
+</tr>
+<tr>
+<td>
+
+![Model Training](../assets/icons/new/model-training-icon.svg ':size=44') **[Model Training](https://github.com/TexasInstruments/tinyml-tensorlab)**
+
+ModelMaker, model optimization and training with tinyml-tensorlab.
+
+</td>
+<td>
+
+![Edge AI Studio](../assets/icons/new/studio-gui-icon.svg ':size=44') **[Edge AI Studio (GUI)](https://www.ti.com/tool/EDGE-AI-STUDIO/)**
+
+No-code data capture, annotation, training and live preview.
+
+</td>
+</tr>
+<tr>
+<td>
+
+![BYOD / BYOM CLI](../assets/icons/new/terminal-cli-icon.svg ':size=44') **[BYOD / BYOM CLI](https://github.com/TexasInstruments/tinyml-tensorlab)**
+
+Commandline model development for advanced users.
+
+</td>
+<td>
+
+![NN Compiler for MCUs](../assets/icons/new/model-compilation-icon.svg ':size=44') **[NN Compiler for MCUs](https://software-dl.ti.com/mctools/nnc/mcu/users_guide/)**
+
+Compile neural networks for accelerated inference on TI MCUs.
+
+</td>
+</tr>
+<tr>
+<td>
+
+![Model Optimization Toolkit](../assets/icons/new/accelerator-icon.svg ':size=44') **[Model Optimization Toolkit](https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modeloptimization)**
+
+Optimize models for TI devices with TinyEngine™ NPUs.
+
+</td>
+<td>
+
+![Benchmarks](../assets/icons/new/benchmark-icon.svg ':size=44') **[Benchmarks](https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modelzoo)**
+
+Performance and power consumption across MCUs and models.
+
+</td>
+</tr>
+<tr>
+<td>
+
+![Applications & Use-Cases](../assets/icons/ti/reference-designs-icon.png ':size=44') **[Applications & Use-Cases](https://www.ti.com/technologies/edge-ai/edge-ai-use-cases.html#real)**
+
+Arc fault, motor bearing fault and fan blower imbalance monitoring.
+
+</td>
+<td>
+
+![Target Sensors](../assets/icons/new/sensor-icon.svg ':size=44') **[Target Sensors](DETAILS.md)**
+
+Current, accelerometer and vibration sensor time-series data.
+
+</td>
+</tr>
+<tr>
+<td>
+
+![BYOD / BYOM Workflows](../assets/icons/new/workflow-icon.svg ':size=44') **[BYOD / BYOM Workflows](DETAILS.md)**
+
+Bring your own data or model into TI's Edge AI ecosystem.
+
+</td>
+<td>
+
+![Coming Soon](../assets/icons/new/radar-icon.svg ':size=44') **[Coming Soon](DETAILS.md)**
+
+Radar, Connectivity and AM2x device support.
+
+</td>
+</tr>
+</table>
 
 <hr>
 
-## 3. Applications/Use-cases Supported by TI:
-TI supports a wide range of Edge AI applications, including:
-
-### 3.1. Applications with reference Designs:
-  * **Arc Fault Monitoring:** This use case involves detecting arc faults in electrical systems, which can help prevent fires and ensure safe operation. TI provides reference designs and software tools to support the development of arc fault monitoring systems. Find more about it here: https://www.ti.com/technologies/edge-ai/edge-ai-use-cases.html#real
-  * **Motor Bearing Fault Monitoring:** This application involves monitoring the condition of motor bearings to predict potential failures and schedule maintenance. TI's Edge AI solutions enable developers to build systems that can detect anomalies in motor bearing behavior and provide early warnings of potential faults. Find more about it here: https://www.ti.com/technologies/edge-ai/edge-ai-use-cases.html#real
-  * **Fan Blower Imbalance:** This use case involves detecting imbalances in fan blowers, which can help improve efficiency and reduce energy consumption. TI's Edge AI solutions provide the necessary tools and software to support the development of fan blower imbalance detection systems.
-
-### 3.2. Application Examples on Public Datasets
-  * In addition to these examples, TI also provides public datasets that can be used to develop and test Edge AI models for various applications.
-
-<hr>
-
-## 4. MCU AI Software Breadth:
-
-TI offers a comprehensive range of software tools to support the development of Edge AI applications on MCUs, including:
-
-| Category                                      | Tool/Link                                                                                                           | Purpose                                                                                                                                                                                                | IS NOT |
-|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| **Edge AI Studio**             | [Edge AI Studio](https://www.ti.com/tool/EDGE-AI-STUDIO/)                                                  | GUI based, No-Code AI development for MCUs and MPUs - Data Capture, Annotation, Model Training, Compilation and Live Preview                                         |        |
-| **Tiny ML Model development for MCUs**        | [tinyml-tensorlab](https://github.com/TexasInstruments/tinyml-tensorlab)                                            | Commandline based development for advanced users - Model Zoo, ModelMaker, Model Optimization Tools, Model training, compilation, examples and other tools. Browse the link for detailed documentation. |        |
-| **Tiny ML Model Optimization Toolkit**        | [tinyml-modeloptimization](https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modeloptimization) | This open-source software framework provides a flexibility for customers with their own training frameworks to optimize their models for TI devices with TinyEngine™ NPUs.                  |        |
-| **Neural Network Compilation Tools for MCUs** | [Neural Network Compiler for MCUs](https://software-dl.ti.com/mctools/nnc/mcu/users_guide/)                         | Compile Neural Network Models for accelerated inference in TI MCUs                                                                                                                                     |        |
-
-<hr>
-
-## 5. Benchmarks for Models and Devices
-
-TI provides a range of benchmarks for Edge AI models and devices, including:
-* Models: TI's tinyml-modelzoo repository provides a range of pre-trained models for various applications, including image classification, object detection, and speech recognition. These models can be used as benchmarks for evaluating the performance of Edge AI systems.  (Refer this: https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modelzoo )
-* Devices: TI provides benchmarks for its range of MCUs, including C2000, MSPM0 and Connectivity MCUs. These benchmarks provide a measure of the performance and power consumption of these devices in various Edge AI applications.
-
-<hr>
-
-Edge AI applications on MCUs offer a range of benefits, including improved real-time decision-making, reduced latency, and enhanced security. TI's comprehensive portfolio of devices, software tools, and solution offerings provides a robust ecosystem for developing and deploying Edge AI applications. The BYOD and BYOM workflows provide developers with the flexibility to use their own data and models with TI's Edge AI solutions, reducing development time and improving performance. By leveraging TI's Edge AI solutions, developers can build a wide range of applications, from arc fault monitoring to fan blower imbalance detection, and take advantage of the benefits of Edge AI on MCUs.
-
-<hr>
-
+[Full Details →](DETAILS.md)
