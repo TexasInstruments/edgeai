@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="100" y1="140" x2="180" y2="110"/>
+    <line x1="100" y1="140" x2="180" y2="180"/>
+    <line x1="100" y1="140" x2="180" y2="250"/>
+    <line x1="100" y1="220" x2="180" y2="110"/>
+    <line x1="100" y1="220" x2="180" y2="180"/>
+    <line x1="100" y1="220" x2="180" y2="250"/>
+    <line x1="180" y1="110" x2="260" y2="140"/>
+    <line x1="180" y1="180" x2="260" y2="140"/>
+    <line x1="180" y1="180" x2="260" y2="220"/>
+    <line x1="180" y1="250" x2="260" y2="220"/>
+    <circle cx="100" cy="140" r="12"/>
+    <circle cx="100" cy="220" r="12"/>
+    <circle cx="180" cy="110" r="12"/>
+    <circle cx="180" cy="180" r="12"/>
+    <circle cx="180" cy="250" r="12"/>
+    <circle cx="260" cy="140" r="12"/>
+    <circle cx="260" cy="220" r="12"/>
+    <path d="M292,86 A26,26 0 1 1 266,60"/>
+    <path d="M256,66 L266,60 L268,72"/>
+  </g>
+</svg>

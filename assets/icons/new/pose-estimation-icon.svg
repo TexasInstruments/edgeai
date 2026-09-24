@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="180" cy="95" r="17"/>
+    <line x1="180" y1="112" x2="180" y2="205"/>
+    <line x1="140" y1="135" x2="220" y2="135"/>
+    <line x1="150" y1="205" x2="210" y2="205"/>
+    <line x1="140" y1="135" x2="115" y2="175"/>
+    <line x1="115" y1="175" x2="100" y2="215"/>
+    <line x1="220" y1="135" x2="245" y2="175"/>
+    <line x1="245" y1="175" x2="260" y2="215"/>
+    <line x1="150" y1="205" x2="140" y2="255"/>
+    <line x1="140" y1="255" x2="130" y2="300"/>
+    <line x1="210" y1="205" x2="220" y2="255"/>
+    <line x1="220" y1="255" x2="230" y2="300"/>
+    <g fill="#333" stroke="none">
+      <circle cx="140" cy="135" r="6"/>
+      <circle cx="220" cy="135" r="6"/>
+      <circle cx="115" cy="175" r="6"/>
+      <circle cx="245" cy="175" r="6"/>
+      <circle cx="100" cy="215" r="6"/>
+      <circle cx="260" cy="215" r="6"/>
+      <circle cx="150" cy="205" r="6"/>
+      <circle cx="210" cy="205" r="6"/>
+      <circle cx="140" cy="255" r="6"/>
+      <circle cx="220" cy="255" r="6"/>
+      <circle cx="130" cy="300" r="6"/>
+      <circle cx="230" cy="300" r="6"/>
+    </g>
+  </g>
+</svg>

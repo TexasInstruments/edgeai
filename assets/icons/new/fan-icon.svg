@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="180" cy="180" r="14"/>
+    <path d="M180,168 C205,155 215,115 195,85 C178,110 168,140 172,168 Z"/>
+    <path d="M180,168 C205,155 215,115 195,85 C178,110 168,140 172,168 Z" transform="rotate(120,180,180)"/>
+    <path d="M180,168 C205,155 215,115 195,85 C178,110 168,140 172,168 Z" transform="rotate(240,180,180)"/>
+  </g>
+</svg>

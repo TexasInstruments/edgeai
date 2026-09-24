@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80,120 L140,120 L165,145 L165,245 L80,245 Z"/>
+    <path d="M140,120 L140,145 L165,145"/>
+    <circle cx="105" cy="175" r="6"/>
+    <circle cx="132" cy="200" r="6"/>
+    <circle cx="105" cy="215" r="6"/>
+    <line x1="105" y1="175" x2="132" y2="200"/>
+    <line x1="132" y1="200" x2="105" y2="215"/>
+    <line x1="180" y1="183" x2="225" y2="183"/>
+    <path d="M215,173 L225,183 L215,193"/>
+    <rect x="245" y="153" width="60" height="60" rx="8" ry="8"/>
+    <line x1="258" y1="153" x2="258" y2="138"/><circle cx="258" cy="132" r="5"/>
+    <line x1="288" y1="153" x2="288" y2="138"/><circle cx="288" cy="132" r="5"/>
+    <line x1="258" y1="213" x2="258" y2="228"/><circle cx="258" cy="234" r="5"/>
+    <line x1="288" y1="213" x2="288" y2="228"/><circle cx="288" cy="234" r="5"/>
+  </g>
+</svg>
