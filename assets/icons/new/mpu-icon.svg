@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="90" y="90" width="180" height="180" rx="16" ry="16"/>
+    <rect x="120" y="120" width="50" height="50" rx="6" ry="6"/>
+    <rect x="190" y="120" width="50" height="50" rx="6" ry="6"/>
+    <rect x="120" y="190" width="50" height="50" rx="6" ry="6"/>
+    <rect x="190" y="190" width="50" height="50" rx="6" ry="6"/>
+    <line x1="170" y1="180" x2="190" y2="180"/>
+    <line x1="180" y1="170" x2="180" y2="190"/>
+    <line x1="126" y1="90" x2="126" y2="72"/><circle cx="126" cy="66" r="6"/>
+    <line x1="162" y1="90" x2="162" y2="72"/><circle cx="162" cy="66" r="6"/>
+    <line x1="198" y1="90" x2="198" y2="72"/><circle cx="198" cy="66" r="6"/>
+    <line x1="234" y1="90" x2="234" y2="72"/><circle cx="234" cy="66" r="6"/>
+    <line x1="126" y1="270" x2="126" y2="288"/><circle cx="126" cy="294" r="6"/>
+    <line x1="162" y1="270" x2="162" y2="288"/><circle cx="162" cy="294" r="6"/>
+    <line x1="198" y1="270" x2="198" y2="288"/><circle cx="198" cy="294" r="6"/>
+    <line x1="234" y1="270" x2="234" y2="288"/><circle cx="234" cy="294" r="6"/>
+    <line x1="90" y1="126" x2="72" y2="126"/><circle cx="66" cy="126" r="6"/>
+    <line x1="90" y1="162" x2="72" y2="162"/><circle cx="66" cy="162" r="6"/>
+    <line x1="90" y1="198" x2="72" y2="198"/><circle cx="66" cy="198" r="6"/>
+    <line x1="90" y1="234" x2="72" y2="234"/><circle cx="66" cy="234" r="6"/>
+    <line x1="270" y1="126" x2="288" y2="126"/><circle cx="294" cy="126" r="6"/>
+    <line x1="270" y1="162" x2="288" y2="162"/><circle cx="294" cy="162" r="6"/>
+    <line x1="270" y1="198" x2="288" y2="198"/><circle cx="294" cy="198" r="6"/>
+    <line x1="270" y1="234" x2="288" y2="234"/><circle cx="294" cy="234" r="6"/>
+  </g>
+</svg>

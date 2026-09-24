@@ -12,7 +12,7 @@ See our [Getting Started guide](./getting_started.md) for AM6xA and TDA4x with E
 
 ## Overview
 
-The figure below provides a high level summary of the relevant tools:<br><img src="assets/workblocks_tools_software.svg" width="800">
+The figure below provides a high level summary of the relevant tools:<br>![Edge AI tools overview](assets/workblocks_tools_software.svg ':size=800')
 
 <hr>
 
@@ -58,12 +58,12 @@ The figure below provides a high level summary of the relevant tools:<br><img sr
 <hr>
 
 ## Workflows
-Bring your own model (BYOM) workflow:<br><img src="assets/workflow_bring_your_own_model.svg" width="800">
+Bring your own model (BYOM) workflow:<br>![BYOM workflow](assets/workflow_bring_your_own_model.svg ':size=800')
 
-Train your own model (TYOM) workflow:<br><img src="assets/workflow_train_your_own_model.svg" width="800">
+Train your own model (TYOM) workflow:<br>![TYOM workflow](assets/workflow_train_your_own_model.svg ':size=800')
 * PyTorch is used within edgeai-modeloptimization. Other training frameworks may be used without our optimization and QAT tools, but models must export to ONNX or TFLITE format. 
 
-Bring your own data (BYOD) workflow:<br><img src="assets/workflow_bring_your_own_data.svg" width="800">
+Bring your own data (BYOD) workflow:<br>![BYOD workflow](assets/workflow_bring_your_own_data.svg ':size=800')
 
 <hr>
 

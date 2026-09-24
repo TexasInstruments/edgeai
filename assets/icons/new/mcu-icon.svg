@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 60 240 240">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="130" y="130" width="100" height="100" rx="14" ry="14"/>
+    <rect x="150" y="150" width="60" height="60" rx="8" ry="8"/>
+    <path d="M160,182 Q170,160 180,182 T200,182"/>
+    <line x1="163" y1="130" x2="163" y2="112"/><circle cx="163" cy="106" r="6"/>
+    <line x1="197" y1="130" x2="197" y2="112"/><circle cx="197" cy="106" r="6"/>
+    <line x1="163" y1="230" x2="163" y2="248"/><circle cx="163" cy="254" r="6"/>
+    <line x1="197" y1="230" x2="197" y2="248"/><circle cx="197" cy="254" r="6"/>
+    <line x1="130" y1="163" x2="112" y2="163"/><circle cx="106" cy="163" r="6"/>
+    <line x1="130" y1="197" x2="112" y2="197"/><circle cx="106" cy="197" r="6"/>
+    <line x1="230" y1="163" x2="248" y2="163"/><circle cx="254" cy="163" r="6"/>
+    <line x1="230" y1="197" x2="248" y2="197"/><circle cx="254" cy="197" r="6"/>
+  </g>
+</svg>

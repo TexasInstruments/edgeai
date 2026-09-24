@@ -12,12 +12,27 @@ These are the documentation landing pages to get started
 
 ## Edge AI devices and software
 
-#### [Edge AI software for Microprocessors (MPUs)](edgeai-mpu/)
-- [Edge AI software and development tools for Microprocessor devices with Linux and TIDL support](edgeai-mpu/)
+<table>
+<tr>
+<td align="center" width="50%">
 
----
+[![Edge AI software for Microprocessors (MPUs)](assets/icons/new/mpu-icon.svg ':size=120')](edgeai-mpu/)
+
+#### [Edge AI software for Microprocessors (MPUs)](edgeai-mpu/)
+
+Edge AI software and development tools for Microprocessor devices with Linux and TIDL support
+
+</td>
+<td align="center" width="50%">
+
+[![Edge AI software for Microcontrollers (MCUs)](assets/icons/new/mcu-icon.svg ':size=120')](edgeai-mcu/)
 
 #### [Edge AI software for Microcontrollers (MCUs)](edgeai-mcu/)
-- [Edge AI / Tiny ML software and development tools for Microcontroller devices](edgeai-mcu/)
+
+Edge AI / Tiny ML software and development tools for Microcontroller devices
+
+</td>
+</tr>
+</table>
 
 ---
