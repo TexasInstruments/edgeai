@@ -1,11 +1,11 @@
 # Edge AI software and development tools
 
-Edge AI is transforming embedded systems – and TI provides the foundation to make physical AI possible. Deploy edge AI across applications with our portfolio of AI-enabled microcontrollers (MCUs), processors, wireless connectivity and radar sensors backed by comprehensive software and tools. 
+This site documents the software and development tools for building edge AI applications on TI's processors and microcontrollers, covering model development, optimization, and deployment across TI's edge AI hardware.
 
-Whether building intelligent sensors, predictive maintenance systems, or autonomous vehicles, we solve the constraints that matter: response times, power consumption, performance, development complexity, memory footprint, and cost to transform data into real-time decisions. 
+Content is organized by device class: Microprocessors (MPUs) running Linux with TIDL support, and Microcontrollers (MCUs) for Tiny ML. Each section covers the software stack, tools, and getting-started guides for that platform.
 
 ## Getting started
-These are the documentation landing pages to get started
+Two starting points, depending on what you need:
 
 <table width="100%" style="display:table; width:100%; table-layout:fixed;">
 <tr>
@@ -15,7 +15,7 @@ These are the documentation landing pages to get started
 
 #### [ti.com/edgeai](https://www.ti.com/edgeai)
 
-Technology page summarizing TI’s edge AI software/hardware products
+Overview of TI's edge AI hardware and software portfolio
 
 </td>
 <td align="center" width="50%">
@@ -24,13 +24,14 @@ Technology page summarizing TI’s edge AI software/hardware products
 
 #### [github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)
 
-This current page for developers to understand overall software and tools offering
+Developer-focused overview of TI's edge AI software and tools
 
 </td>
 </tr>
 </table>
 
 ## Edge AI devices and software
+Documentation is split by device class:
 
 <table width="100%" style="display:table; width:100%; table-layout:fixed;">
 <tr>
@@ -40,7 +41,7 @@ This current page for developers to understand overall software and tools offeri
 
 #### [Edge AI software for Microprocessors (MPUs)](edgeai-mpu/)
 
-Edge AI software and development tools for Microprocessor devices with Linux and TIDL support
+Software and development tools for Microprocessor (MPU) devices running Linux, with TIDL support
 
 </td>
 <td align="center" width="50%">
@@ -49,7 +50,7 @@ Edge AI software and development tools for Microprocessor devices with Linux and
 
 #### [Edge AI software for Microcontrollers (MCUs)](edgeai-mcu/)
 
-Edge AI / Tiny ML software and development tools for Microcontroller devices
+Software and development tools for Microcontroller (MCU) devices, for Tiny ML
 
 </td>
 </tr>
