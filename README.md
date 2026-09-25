@@ -7,11 +7,11 @@ Whether building intelligent sensors, predictive maintenance systems, or autonom
 ## Getting started
 These are the documentation landing pages to get started
 
-<table>
+<table width="100%" style="display:table; width:100%; table-layout:fixed;">
 <tr>
 <td align="center" width="50%">
 
-[![TI Edge AI technology page](assets/icons/new/publication-icon.svg ':size=90')](https://www.ti.com/edgeai)
+[![TI Edge AI technology page](assets/icons/new/publication-icon.svg ':size=128')](https://www.ti.com/edgeai)
 
 #### [ti.com/edgeai](https://www.ti.com/edgeai)
 
@@ -20,7 +20,7 @@ Technology page summarizing TI’s edge AI software/hardware products
 </td>
 <td align="center" width="50%">
 
-[![Edge AI developer overview](assets/icons/new/getting-started-icon.svg ':size=90')](https://github.com/TexasInstruments/edgeai)
+[![Edge AI developer overview](assets/icons/new/getting-started-icon.svg ':size=128')](https://github.com/TexasInstruments/edgeai)
 
 #### [github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)
 
@@ -32,11 +32,11 @@ This current page for developers to understand overall software and tools offeri
 
 ## Edge AI devices and software
 
-<table>
+<table width="100%" style="display:table; width:100%; table-layout:fixed;">
 <tr>
 <td align="center" width="50%">
 
-[![Edge AI software for Microprocessors (MPUs)](assets/icons/new/mpu-icon.svg ':size=120')](edgeai-mpu/)
+[![Edge AI software for Microprocessors (MPUs)](assets/icons/new/mpu-icon.svg ':size=128')](edgeai-mpu/)
 
 #### [Edge AI software for Microprocessors (MPUs)](edgeai-mpu/)
 
@@ -45,7 +45,7 @@ Edge AI software and development tools for Microprocessor devices with Linux and
 </td>
 <td align="center" width="50%">
 
-[![Edge AI software for Microcontrollers (MCUs)](assets/icons/new/mcu-icon.svg ':size=120')](edgeai-mcu/)
+[![Edge AI software for Microcontrollers (MCUs)](assets/icons/new/mcu-icon.svg ':size=128')](edgeai-mcu/)
 
 #### [Edge AI software for Microcontrollers (MCUs)](edgeai-mcu/)
 
@@ -56,3 +56,4 @@ Edge AI / Tiny ML software and development tools for Microcontroller devices
 </table>
 
 ---
+

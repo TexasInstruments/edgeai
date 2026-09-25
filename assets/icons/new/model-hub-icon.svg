@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="180" y1="180" x2="180" y2="70"/>
+    <line x1="180" y1="180" x2="284.6" y2="146"/>
+    <line x1="180" y1="180" x2="244.7" y2="269"/>
+    <line x1="180" y1="180" x2="115.3" y2="269"/>
+    <line x1="180" y1="180" x2="75.4" y2="146"/>
+    <circle cx="180" cy="180" r="34"/>
+    <rect x="166" y="56" width="28" height="28" rx="6" ry="6"/>
+    <rect x="270.6" y="132" width="28" height="28" rx="6" ry="6"/>
+    <rect x="230.7" y="255" width="28" height="28" rx="6" ry="6"/>
+    <rect x="101.3" y="255" width="28" height="28" rx="6" ry="6"/>
+    <rect x="61.4" y="132" width="28" height="28" rx="6" ry="6"/>
+  </g>
+</svg>
