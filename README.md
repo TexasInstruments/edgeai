@@ -24,7 +24,7 @@ Overview of TI's edge AI hardware and software portfolio
 
 #### [github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)
 
-Developer-focused overview of TI's edge AI software and tools
+Developer-focused deep-dive into TI's edge AI software and tools
 
 </td>
 </tr>
