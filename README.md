@@ -41,7 +41,7 @@ Documentation is split by device class:
 
 #### [Edge AI software for Microprocessors (MPUs)](edgeai-mpu/)
 
-Software and development tools for Microprocessor (MPU) devices running Linux, with TIDL support
+Software and development tools for Arm® Cortex®-A based Microprocessor devices (MPUs) with TI's C7™ NPU, with TIDL support for edge AI
 
 </td>
 <td align="center" width="50%">

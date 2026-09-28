@@ -1,22 +1,14 @@
 # Edge AI software and development tools for microprocessor devices with Linux and TIDL support
 
-Embedded inference of Neural Network models is challenging due to high compute requirements. TI's Edge AI software optimizes and accelerates inference on TI's embedded devices, supporting heterogeneous execution of Neural Network models across Arm® Cortex®-A based MPUs and TI's latest generation C7™ NPU.
+Embedded inference of Neural Network models is challenging due to high compute requirements. TI's Edge AI software optimizes and accelerates inference on TI's embedded devices, supporting heterogeneous execution of Neural Network models across Arm® Cortex®-A based MPUs and TI's C7™ NPU.
+
+The C7 NPU is a power-efficient AI accelerator built on TI's DSP heritage, combining a SIMD-DSP with a matrix multiplication accelerator for fast neural network execution. Integrated into the AM6xA and TDA4x family of processors, it offloads inference from the Arm Cortex-A cores and supports multiple concurrent AI workloads, such as simultaneously processing camera, radar and lidar data, making it well suited for vision-heavy applications like ADAS, robotics and industrial automation.
+
+TI Deep Learning (TIDL) is TI's software for compiling, optimizing and deploying neural network models on TI's embedded microprocessors, without needing to hand-write code for the underlying AI accelerator.
 
 ## Overview
 
 <table style="display:table; width:100%; table-layout:fixed;">
-<tr>
-<td align="center" width="15%">
-
-[![Workflows](../assets/icons/new/workflow-icon.svg ':size=96')](workflows.md)
-
-</td>
-<td>
-
-Depending on where someone starts, there is an appropriate workflow for developing and deploying the model on device. This section explains the [BYOD / BYOM / TYOM workflows](workflows.md).
-
-</td>
-</tr>
 <tr>
 <td align="center" width="15%">
 
@@ -25,7 +17,19 @@ Depending on where someone starts, there is an appropriate workflow for developi
 </td>
 <td>
 
-[Getting started guide](getting_started.md) for AM6xA and TDA4x devices
+Start with the [getting started guide](getting_started.md) for AM6xA and TDA4x devices.
+
+</td>
+</tr>
+<tr>
+<td align="center" width="15%">
+
+[![Workflows](../assets/icons/new/workflow-icon.svg ':size=96')](workflows.md)
+
+</td>
+<td>
+
+Pick the matching workflow for developing and deploying your model: [bring your own data (BYOD), bring your own model (BYOM), or train your own model (TYOM)](workflows.md).
 
 </td>
 </tr>
@@ -46,7 +50,16 @@ Robotics, automotive and industrial demo applications.
 </table>
 
 
+## Quickstart
+1. Read the [getting started guide](getting_started.md) and also browse through [edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools) - understand the basic documentation and features of TIDL
+2. Select the basic example in edgeai-tidl-tools and compile a model for the C7™ NPU.
+3. Try to run it EVM board with edgeai-tidl-tools basic example.
+4. Pick another pretrained model from the [Model Hub](https://github.com/TexasInstruments/edgeai-modelhub) or [Model Zoo](https://github.com/TexasInstruments/edgeai-modelzoo) and try to repeat the above process.
+5. Once everything is comfortable, come back to the full tool list below for further optimization and benchmarking.
+
 ## Tools for every role
+
+The tools below cover every stage of development and every role, so it's a lot to take in at once. If this is your first time with TIDL, here's the shortest path through it:
 
 #### Tools for model development
 
@@ -62,7 +75,7 @@ Robotics, automotive and industrial demo applications.
 [Model Hub](https://github.com/TexasInstruments/edgeai-modelhub)
 
 Collection of state-of-the-art pretrained models and export scripts. Also includes the details needed to compile, benchmark and deploy them. It is available at 
-[huggingface](https://github.com/TexasInstruments/edgeai-modelhub) and at [github](https://github.com/TexasInstruments/edgeai-modelhub). This collection is frequently updated.
+[huggingface](https://huggingface.co/TexasInstruments) and at [github](https://github.com/TexasInstruments/edgeai-modelhub). This collection is frequently updated.
 
 </td>
 </tr>
@@ -76,7 +89,7 @@ Collection of state-of-the-art pretrained models and export scripts. Also includ
 
 [Model Zoo](https://github.com/TexasInstruments/edgeai-modelzoo)
 
-Collection of new and legacy pretrained, benchmarked models, including TI-trained, embedded-friendly models.
+Collection of new and legacy pretrained, benchmarked models, including TI-trained embedded-friendly models.
 
 </td>
 <tr>
@@ -141,7 +154,7 @@ Papers, articles and technical deep-dives.
 
 [Target devices & SDKs](readme_sdk.md)
 
-AM6xA / TDA4x processors and their Linux SDKs.
+AM6xA / TDA4x processors with C7™ NPU acceleration, and their Linux SDKs.
 
 </td>
 </tr>
@@ -171,7 +184,7 @@ Also see other [model-tools](https://github.com/TexasInstruments/edgeai-tidl-too
 
 [Model compilation and deployment with tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools)
 
-Compile ONNX/TFLite models with edgeai-tidl-tools or edgeai-tidlrunner.
+Compile ONNX/TFLite models for the C7™ NPU with edgeai-tidl-tools or edgeai-tidlrunner.
 
 </td>
 </tr>
