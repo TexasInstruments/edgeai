@@ -1,5 +1,7 @@
 # Devices and SDKs supported by our MCU Analytics tools
 
+The full list of supported devices in [tinyml-modelzoo](https://github.com/TexasInstruments/tinyml-modelzoo#supported-target-devices). Details of a few devices are listed below.
+
 ## F28P55
 * Product information: https://www.ti.com/product/TMS320F28P550SJ
 * Launchpad: https://www.ti.com/tool/LAUNCHXL-F28P55X

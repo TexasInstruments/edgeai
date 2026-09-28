@@ -51,15 +51,15 @@ Robotics, automotive and industrial demo applications.
 
 
 ## Quickstart
+Here is a brief guide to get started with the tools.
+
 1. Read the [getting started guide](getting_started.md) and also browse through [edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools) - understand the basic documentation and features of TIDL
 2. Select the basic example in edgeai-tidl-tools and compile a model for the C7™ NPU.
 3. Try to run it EVM board with edgeai-tidl-tools basic example.
 4. Pick another pretrained model from the [Model Hub](https://github.com/TexasInstruments/edgeai-modelhub) or [Model Zoo](https://github.com/TexasInstruments/edgeai-modelzoo) and try to repeat the above process.
-5. Once everything is comfortable, come back to the full tool list below for further optimization and benchmarking.
+5. Once the usage of these tools are understood, go to the full tool list below for further optimization, benchmarking or custom model training.
 
 ## Tools for every role
-
-The tools below cover every stage of development and every role, so it's a lot to take in at once. If this is your first time with TIDL, here's the shortest path through it:
 
 #### Tools for model development
 
@@ -75,7 +75,7 @@ The tools below cover every stage of development and every role, so it's a lot t
 [Model Hub](https://github.com/TexasInstruments/edgeai-modelhub)
 
 Collection of state-of-the-art pretrained models and export scripts. Also includes the details needed to compile, benchmark and deploy them. It is available at 
-[huggingface](https://huggingface.co/TexasInstruments) and at [github](https://github.com/TexasInstruments/edgeai-modelhub). This collection is frequently updated.
+[huggingface](https://huggingface.co/TexasInstruments) and at [github](https://github.com/TexasInstruments/edgeai-modelhub). This collection is frequently updated. The repositories from which these models are exported are listed and can be used to train a custom model with your own data (BYOD) using the prtrained model as the checkpoint.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Collection of state-of-the-art pretrained models and export scripts. Also includ
 
 [Model Zoo](https://github.com/TexasInstruments/edgeai-modelzoo)
 
-Collection of new and legacy pretrained, benchmarked models, including TI-trained embedded-friendly models.
+Collection of new and legacy pretrained, benchmarked models, including TI-trained embedded-friendly models. The repositories from which these models are exported are listed and can be used to train a custom model with your own data (BYOD) using the prtrained model as the checkpoint.
 
 </td>
 <tr>

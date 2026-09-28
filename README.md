@@ -50,7 +50,7 @@ Software and development tools for Arm® Cortex®-A based Microprocessor devices
 
 #### [Edge AI software for Microcontrollers (MCUs)](edgeai-mcu/)
 
-Software and development tools for Microcontroller (MCU) devices, for Tiny ML
+Software and development tools for deploying edge AI applications on Microcontroller (MCU) devices. Supports TIs various application specific as well as general purpose microcontrollers, connectivity devices and radar sensors.
 
 </td>
 </tr>

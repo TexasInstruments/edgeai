@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="165" y1="80" x2="165" y2="280"/>
+    <line x1="110" y1="120" x2="220" y2="120"/>
+    <line x1="128" y1="165" x2="202" y2="165"/>
+    <line x1="118" y1="280" x2="212" y2="280"/>
+    <line x1="110" y1="120" x2="165" y2="80"/>
+    <line x1="220" y1="120" x2="165" y2="80"/>
+    <line x1="110" y1="120" x2="138" y2="280"/>
+    <line x1="220" y1="120" x2="192" y2="280"/>
+  </g>
+  <path d="M275,130 L242,195 L266,195 L238,255 L292,205 L264,205 Z" fill="#333" stroke="none"/>
+</svg>
