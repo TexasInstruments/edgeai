@@ -154,7 +154,7 @@ Papers, articles and technical deep-dives.
 
 [Target devices & SDKs](readme_sdk.md)
 
-AM6xA / TDA4x processors with C7™ NPU acceleration, and their Linux SDKs.
+AM6xA / TDA4x processors with C7™ NPU acceleration, and their Linux/RTOS SDKs.
 
 </td>
 </tr>
@@ -182,9 +182,9 @@ Also see other [model-tools](https://github.com/TexasInstruments/edgeai-tidl-too
 </td>
 <td>
 
-[Model compilation and deployment with tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools)
+[Model compilation and deployment with edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools)
 
-Compile ONNX/TFLite models for the C7™ NPU with edgeai-tidl-tools or edgeai-tidlrunner.
+Compile and infer ONNX/TFLite models for the C7™ NPU with edgeai-tidl-tools.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Compile ONNX/TFLite models for the C7™ NPU with edgeai-tidl-tools or edgeai-ti
 
 [Advanced model compilation and benchmark](https://github.com/TexasInstruments/edgeai-tidlrunner)
 
-Command-line tool for model compilation, inference, accuracy benchmarking, optimization and visualized model inspection - no scripting required.<br>Supports TI SoCs and x86 PC; does not support camera/display pipelines (use Edge AI SDK for that).
+Command-line tool for model compilation, inference, accuracy benchmarking, optimization and visualized model inspection - no scripting required. Supports model compilation and accuracy benchmark on x86 PC emulation and inference on EVM.
 
 </td>
 </tr>
