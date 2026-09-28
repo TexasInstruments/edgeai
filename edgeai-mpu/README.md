@@ -13,7 +13,7 @@ Embedded inference of Neural Network models is challenging due to high compute r
 </td>
 <td>
 
-Depending on where someone starts, there is an appropriate workflow for developing and deploying the model on device. This section explains the [BYOD / BYOM / TYOM workflows](workflows.md)
+Depending on where someone starts, there is an appropriate workflow for developing and deploying the model on device. This section explains the [BYOD / BYOM / TYOM workflows](workflows.md).
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Robotics, automotive and industrial demo applications.
 [Model Hub](https://github.com/TexasInstruments/edgeai-modelhub)
 
 Collection of state-of-the-art pretrained models and export scripts. Also includes the details needed to compile, benchmark and deploy them. It is available at 
-[huggingface](https://github.com/TexasInstruments/edgeai-modelhub) and at [github](https://github.com/TexasInstruments/edgeai-modelhub). This collection is frequently being uodated.
+[huggingface](https://github.com/TexasInstruments/edgeai-modelhub) and at [github](https://github.com/TexasInstruments/edgeai-modelhub). This collection is frequently updated.
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Collection of state-of-the-art pretrained models and export scripts. Also includ
 
 [Model Zoo](https://github.com/TexasInstruments/edgeai-modelzoo)
 
-Collection of new and legacy pretrained, benchmarked models, including TI trained embedded friendly models.
+Collection of new and legacy pretrained, benchmarked models, including TI-trained, embedded-friendly models.
 
 </td>
 <tr>
@@ -106,7 +106,7 @@ Tools and utilities for developing embedded-friendly Neural Network models in Py
 
 Train and compile models with the edgeai-modelmaker in edgeai-tensorlab. End-to-end development flow, with a simple interface - for beginners. 
 
-Note: This package is a bit outdated now, but is till serves as an example for model training and compilation.
+Note: This package is a bit outdated now, but it still serves as an example for model training and compilation.
 
 </td>
 </tr>
@@ -236,11 +236,11 @@ Evaluate on TI's EVM farm - no local hardware needed.
 
 ## Help and support
 
-Submit an issue to get help & support from the TI [Processors E2E forum](https://e2e.ti.com/support/processors-group/processors/f/processors-forum/)
+Submit an issue to get help & support from the TI [Processors E2E forum](https://e2e.ti.com/support/processors-group/processors/f/processors-forum/).
 
-Help, support and training details for Edge AI Studio is listed at its [landing page](https://www.ti.com/tool/EDGE-AI-STUDIO).
+Help, support and training details for Edge AI Studio are listed at its [landing page](https://www.ti.com/tool/EDGE-AI-STUDIO).
 
 
 ## Release notes
 
-Release notes are [here](./release_notes.md)
+Release notes are [here](./release_notes.md).
