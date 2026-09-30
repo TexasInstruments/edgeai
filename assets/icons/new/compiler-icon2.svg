@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90,110 L154,110 L170,126 L170,190 L90,190 Z"/>
+    <path d="M154,110 L154,126 L170,126"/>
+    <path d="M178,155 L206,164"/>
+    <path d="M196,158 L206,164 L197,170"/>
+    <path d="M210,125 L274,125 L290,141 L290,205 L210,205 Z"/>
+    <path d="M274,125 L274,141 L290,141"/>
+  </g>
+  <text x="130" y="163" font-family="Menlo, Consolas, monospace" font-size="30" font-weight="700" fill="#333" stroke="none" text-anchor="middle">&lt;/&gt;</text>
+  <text x="250" y="158" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="700" fill="#333" stroke="none" text-anchor="middle">10010</text>
+  <text x="250" y="178" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="700" fill="#333" stroke="none" text-anchor="middle">0101</text>
+</svg>

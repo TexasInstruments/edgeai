@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="108" y="118" width="14" height="20" rx="2" ry="2"/>
+    <rect x="126" y="110" width="14" height="28" rx="2" ry="2"/>
+    <path d="M144,138 L144,95 L188,95 L208,115 L208,138"/>
+    <path d="M188,95 L188,115 L208,115"/>
+    <path d="M75,255 L75,158 Q75,150 83,150 L145,150 L158,165 L277,165 Q285,165 285,173 L285,247 Q285,255 277,255 Z"/>
+    <line x1="100" y1="195" x2="128" y2="195"/>
+    <circle cx="134" cy="195" r="6"/>
+    <line x1="140" y1="195" x2="140" y2="215"/>
+    <circle cx="140" cy="221" r="12"/>
+    <circle cx="140" cy="221" r="5"/>
+    <line x1="152" y1="221" x2="180" y2="221"/>
+    <circle cx="186" cy="221" r="6"/>
+    <rect x="205" y="185" width="36" height="36" rx="4" ry="4"/>
+    <line x1="223" y1="221" x2="223" y2="232"/>
+    <line x1="223" y1="232" x2="245" y2="232"/>
+    <circle cx="251" cy="232" r="6"/>
+    <rect x="100" y="228" width="20" height="20" rx="3" ry="3"/>
+    <line x1="120" y1="238" x2="140" y2="238"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M140,150 Q140,130 162,130 L198,130 Q220,130 220,150 L220,195 L140,195 Z"/>
+    <path d="M105,222 L180,198 L255,222 L180,246 Z"/>
+    <path d="M105,222 L105,252"/>
+    <path d="M255,222 L255,252"/>
+    <path d="M105,252 L180,284 L255,252"/>
+  </g>
+  <text x="180" y="172" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#333" stroke="none" text-anchor="middle">SDK</text>
+</svg>

@@ -1,0 +1,122 @@
+:root {
+  --theme-color: #158F94;
+  --ti-red: #CC0000;
+  --ti-dark: #14141a;
+  --ti-cream: #EFF2F1;
+  --ti-topbar-height: 6px;
+  --ti-banner-height: 56px;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section strong {
+  color: #1a1a1a;
+}
+
+#ti-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--ti-topbar-height);
+  background: var(--ti-red);
+  z-index: 30;
+}
+
+#ti-banner {
+  position: fixed;
+  top: var(--ti-topbar-height);
+  left: 0;
+  right: 0;
+  height: var(--ti-banner-height);
+  background: var(--ti-dark);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 25;
+}
+
+.ti-banner-text {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.ti-logo {
+  height: 28px;
+  width: auto;
+}
+
+.sidebar {
+  top: calc(var(--ti-topbar-height) + var(--ti-banner-height));
+  background-color: var(--ti-cream);
+}
+
+.content {
+  top: calc(var(--ti-topbar-height) + var(--ti-banner-height));
+}
+
+.markdown-section table td p {
+  margin: 0.2em 0;
+}
+
+.markdown-section table td p:first-child {
+  margin-top: 0;
+}
+
+.markdown-section table td p:last-child {
+  margin-bottom: 0;
+}
+
+/* Gallery tables (icon + description tiles) rendered as a card grid.
+   Scoped to tables carrying the existing display:table inline style so
+   plain data tables (pipe-syntax markdown tables) are left untouched. */
+.markdown-section table[style*="display:table"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 420px));
+  gap: 1rem;
+  overflow: visible;
+}
+
+.markdown-section table[style*="display:table"] tr,
+.markdown-section table[style*="display:table"] tr:nth-child(2n) {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: box-shadow 0.15s ease;
+}
+
+.markdown-section table[style*="display:table"] tr:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.markdown-section table[style*="display:table"] td {
+  display: block;
+  border: none;
+  padding: 0;
+}
+
+.markdown-section table[style*="display:table"] td:first-child:not(:only-child) {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.markdown-section table[style*="display:table"] td:last-child:not(:only-child) {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.markdown-section table[style*="display:table"] td:only-child {
+  width: 100%;
+  text-align: center;
+}

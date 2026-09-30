@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g fill="none" stroke="#333" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M172,163 L172,138 L162,122"/>
+    <path d="M188,163 L188,132"/>
+    <path d="M197,172 L222,158 L236,158"/>
+    <path d="M197,188 L226,182"/>
+    <path d="M197,197 L212,214 L228,220"/>
+    <path d="M188,197 L188,226"/>
+    <path d="M172,197 L172,222 L160,236"/>
+    <path d="M163,197 L142,208 L128,208"/>
+    <path d="M163,188 L134,192"/>
+    <path d="M163,172 L138,158 L124,158"/>
+    <path d="M163,163 L142,144 L130,130"/>
+    <path d="M197,163 L218,144 L232,130"/>
+  </g>
+  <rect x="163" y="163" width="34" height="34" rx="4" ry="4" fill="#333" stroke="none"/>
+  <g fill="none" stroke="#333" stroke-width="5">
+    <circle cx="162" cy="122" r="4"/>
+    <circle cx="188" cy="132" r="4"/>
+    <circle cx="236" cy="158" r="4"/>
+    <circle cx="226" cy="182" r="4"/>
+    <circle cx="228" cy="220" r="4"/>
+    <circle cx="188" cy="226" r="4"/>
+    <circle cx="160" cy="236" r="4"/>
+    <circle cx="128" cy="208" r="4"/>
+    <circle cx="134" cy="192" r="4"/>
+    <circle cx="124" cy="158" r="4"/>
+    <circle cx="130" cy="130" r="4"/>
+    <circle cx="232" cy="130" r="4"/>
+  </g>
+</svg>
