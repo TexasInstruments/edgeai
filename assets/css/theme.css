@@ -16,7 +16,7 @@
 }
 
 #ti-topbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -26,7 +26,7 @@
 }
 
 #ti-banner {
-  position: fixed;
+  position: sticky;
   top: var(--ti-topbar-height);
   left: 0;
   right: 0;
@@ -53,12 +53,7 @@
 }
 
 .sidebar {
-  top: calc(var(--ti-topbar-height) + var(--ti-banner-height));
   background-color: var(--ti-cream);
-}
-
-.content {
-  top: calc(var(--ti-topbar-height) + var(--ti-banner-height));
 }
 
 .markdown-section table td p {
