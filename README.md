@@ -30,7 +30,7 @@ Overview of TI's Edge AI supported device portfolio and applications. Understand
 </td>
 <td>
 
-[github.com/TexasInstruments/edgeai](https://github.com/TexasInstruments/edgeai)
+[edgeai at github.com/TexasInstruments](https://github.com/TexasInstruments/edgeai)
 
 Developer-focused entry point into TI's Edge AI software and tools. Software, examples and documentation for the edge AI developer.
 
