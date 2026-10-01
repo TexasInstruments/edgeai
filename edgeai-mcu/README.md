@@ -1,6 +1,6 @@
-# Edge AI / Tiny ML software and development tools for microcontrollers
+# Edge AI tools for MCUs
 
-Edge AI on TI's Application Specific Microcontrollers (MCUs) - Tiny ML brings AI models to resource-constrained devices like C2000™ (F28x/F29x), MSPM0 and Connectivity MCUs, enabling real-time analysis of sensor data such as current, accelerometer and vibration signals.
+Edge AI on TI's Application Specific Microcontrollers (MCUs) - Tiny ML brings AI models to resource-constrained devices like C2000™ (F28x/F29x), MSPM0, Connectivity and Radar MCUs, enabling real-time analysis of sensor data such as current, accelerometer and vibration signals.
 
 ## Quickstart
 
@@ -26,9 +26,9 @@ Here is a brief guide to get started with the tools.
 </td>
 <td>
 
-[Example applications](readme_examples.md)
+[Example applications](readme_examples.md) - Browse 30+ ready-to-run example applications.
 
-Browse 30+ ready-to-run example applications spanning Time Series Classification, Regression, Forecasting, Anomaly Detection, Audio Classification, Image Classification, and Radar Point Cloud Classification, each with a dataset, tuned model, and device-specific config.
+Examples include Time Series Classification, Regression, Forecasting, Anomaly Detection, Audio Classification, Image Classification, and Radar Point Cloud Classification, each with a dataset, tuned model, and device-specific config.
 
 </td>
 </tr>
@@ -40,7 +40,7 @@ Browse 30+ ready-to-run example applications spanning Time Series Classification
 </td>
 <td>
 
-[tinyml-tensorlab](https://github.com/TexasInstruments/tinyml-tensorlab)
+[tinyml-tensorlab html user guide](https://software-dl.ti.com/C2000/esd/mcu_ai/user_guide/index.html) and [tinyml-tensorlab](https://github.com/TexasInstruments/tinyml-tensorlab) - Integrated model training and compilation.
 
 The Tiny ML Tensorlab is the starting point to explore TI's AI models for MCUs. It supports training models across Time Series Classification, Regression, Forecasting, Anomaly Detection, and Image Classification tasks across 24+ TI microcontrollers with 30+ example applications.
 
@@ -54,7 +54,7 @@ The Tiny ML Tensorlab is the starting point to explore TI's AI models for MCUs. 
 </td>
 <td>
 
-[tinyml-modeloptimization](https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modeloptimization)
+[tinyml-modeloptimization](https://github.com/TexasInstruments/tinyml-tensorlab/tree/main/tinyml-modeloptimization) - Model quantization tools.
 
 Tools to quantize models for TI devices with TinyEngine™ NPUs. Supports Quantization Aware Training (QAT) and Post Training Quantization (PTQ).
 
@@ -73,7 +73,7 @@ Tools to quantize models for TI devices with TinyEngine™ NPUs. Supports Quanti
 </td>
 <td>
 
-[Target devices & SDKs](readme_sdk.md)
+[Target devices & SDKs](readme_sdk.md) - Software development kits of supported devices.
 
 C2000™ (F28x/F29x), MSPM0, Connectivity and Radar MCUs, and their supported SDKs.
 
@@ -82,12 +82,12 @@ C2000™ (F28x/F29x), MSPM0, Connectivity and Radar MCUs, and their supported SD
 <tr>
 <td align="center" width="15%">
 
-[![Model Zoo](../assets/icons/new/model-zoo-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo)
+[![tinyml-modelzoo](../assets/icons/new/model-zoo-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo)
 
 </td>
 <td>
 
-[Model Zoo](https://github.com/TexasInstruments/tinyml-modelzoo)
+[tinyml-modelzoo](https://github.com/TexasInstruments/tinyml-modelzoo) - MCU AI models, examples, and configurations with integrated model training, quantization, and compilation.
 
 Texas Instruments' central repository for AI models, examples, and configurations for microcontroller (MCU) applications. Clone this repo, install it, and run any example config against your target device — training, quantization, and compilation all happen automatically underneath.
 
@@ -101,7 +101,7 @@ Texas Instruments' central repository for AI models, examples, and configuration
 </td>
 <td>
 
-[Edge AI Studio (GUI)](https://www.ti.com/tool/EDGE-AI-STUDIO/)
+[Edge AI Studio (GUI)](https://www.ti.com/tool/EDGE-AI-STUDIO/) - End-to-end GUI solution.
 
 The Edge AI Studio graphical user interface provides a fully integrated solution for data management, model training and deployment on a live development platform. Select from a variety of optimized pre-trained models in the TI Model Zoo and optionally re-train them with custom data (BYOD) to improve accuracy and performance. Edge AI Studio is available as both a cloud and desktop application for microcontrollers, connectivity devices and radar sensors. 
 
@@ -115,7 +115,7 @@ The Edge AI Studio graphical user interface provides a fully integrated solution
 </td>
 <td>
 
-[NN Compiler for MCUs](https://software-dl.ti.com/mctools/nnc/mcu/users_guide/)
+[NN Compiler for MCUs](https://software-dl.ti.com/mctools/nnc/mcu/users_guide/) - Neural Network Compiler (NNC) for MCUs.
 
 Texas Instruments’ Neural Network Compiler (NNC) for MCUs enables machine learning networks to be compiled for TI MCUs. The output from this compiler is an inference library (.h, .a). These files, in turn, are compiled by the MCU compiler along with other application code managed as a Code Composer Studio (CCS) project.
 

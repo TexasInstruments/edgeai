@@ -1,10 +1,10 @@
 :root {
   --theme-color: #158F94;
   --ti-red: #CC0000;
-  --ti-dark: #14141a;
+  --ti-dark: #4A4A52;
   --ti-cream: #EFF2F1;
   --ti-topbar-height: 6px;
-  --ti-banner-height: 56px;
+  --ti-banner-height: 70px;
 }
 
 .markdown-section h1,
@@ -48,7 +48,7 @@
 }
 
 .ti-logo {
-  height: 28px;
+  height: 44px;
   width: auto;
 }
 

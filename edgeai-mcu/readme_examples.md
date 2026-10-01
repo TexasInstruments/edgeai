@@ -230,12 +230,12 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 <tr>
 <td align="center" width="15%">
 
-[![Human activity recognition](../assets/icons/new/activity-recognition-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/branched_model_parameters)
+[![Human activity recognition](../assets/icons/new/activity-recognition-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/human_activity_recognition)
 
 </td>
 <td>
 
-[Human activity recognition](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/branched_model_parameters)
+[Human activity recognition](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/human_activity_recognition)
 
 *Accelerometer/Gyroscope* - Human Activity Recognition from accelerometer/gyroscope data.
 
@@ -269,6 +269,20 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 </td>
 </tr>
+<tr>
+<td align="center" width="15%">
+
+[![Wi-Fi CSI presence detection](../assets/icons/new/wifi-presence-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/wifi_csi_presence_detection)
+
+</td>
+<td>
+
+[Wi-Fi CSI presence detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/wifi_csi_presence_detection)
+
+*Wi-Fi CSI* - Device-free human presence detection from Wi-Fi Channel State Information.
+
+</td>
+</tr>
 </table>
 
 ## Regression
@@ -285,6 +299,20 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 [Generic time series regression](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/generic_timeseries_regression)
 
 Generic regression example for continuous value prediction.
+
+</td>
+</tr>
+<tr>
+<td align="center" width="15%">
+
+[![BMS battery SOC estimation](../assets/icons/new/battery-soc-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/bms_soc_estimation)
+
+</td>
+<td>
+
+[BMS battery SOC estimation](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/bms_soc_estimation)
+
+*Voltage/Current/Temperature* - Estimate lithium-ion battery State of Charge (SOC) for battery management systems.
 
 </td>
 </tr>
@@ -333,12 +361,12 @@ Generic regression example for continuous value prediction.
 <tr>
 <td align="center" width="15%">
 
-[![Washing machine load regression](../assets/icons/new/washing-machine-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/reg_washing_machine)
+[![Washing machine load regression](../assets/icons/new/washing-machine-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/washing_machine_load_weighing)
 
 </td>
 <td>
 
-[Washing machine load regression](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/reg_washing_machine)
+[Washing machine load regression](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/washing_machine_load_weighing)
 
 *Voltage/Current/Speed* - Predict washing machine load weight.
 
@@ -429,6 +457,48 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 
 </td>
 </tr>
+<tr>
+<td align="center" width="15%">
+
+[![Cough detection](../assets/icons/new/cough-detection-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/cough_detection)
+
+</td>
+<td>
+
+[Cough detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/cough_detection)
+
+*Audio* - Binary classification (cough vs. other sounds), running fully on-device on the TinyEngine NPU.
+
+</td>
+</tr>
+<tr>
+<td align="center" width="15%">
+
+[![Glass break detection](../assets/icons/new/glass-break-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/glass_break_detection)
+
+</td>
+<td>
+
+[Glass break detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/glass_break_detection)
+
+*Audio (FFT)* - Detect glass-breaking acoustic signatures for security and home-automation systems.
+
+</td>
+</tr>
+<tr>
+<td align="center" width="15%">
+
+[![Wake word detection](../assets/icons/new/wake-word-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/wake_word_detection)
+
+</td>
+<td>
+
+[Wake word detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/wake_word_detection)
+
+*Audio* - Always-on, on-device detection of a wake word for low-power, privacy-preserving voice interfaces.
+
+</td>
+</tr>
 </table>
 
 ## Image Classification
@@ -484,12 +554,12 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 <tr>
 <td align="center" width="15%">
 
-[![Radar point cloud classification](../assets/icons/new/point-cloud-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/radar_point_cloud_classification)
+[![Radar point cloud classification](../assets/icons/new/radar-point-cloud-icon.svg ':size=96')](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/radar_pose_and_fall_detection)
 
 </td>
 <td>
 
-[Radar point cloud classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/radar_point_cloud_classification)
+[Radar point cloud classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/radar_pose_and_fall_detection)
 
 *Radar point cloud* - Detect human presence, pose, and falls from mmWave radar point-cloud frames (IWRL6432).
 

@@ -1,6 +1,6 @@
 # Getting Started with Edge AI MPU's
 
-This document guide new developers to the right resources, tools, examples, and documents for new users of TI's Edge AI solution for microprocessor (MPU) devices. This is a high-level, technical document intended for developers. 
+This document guides new developers to the right resources, tools, examples, and documents for new users of TI's Edge AI solution for microprocessor (MPU) devices. This is a high-level, technical document intended for developers. 
 
 **Quick links for developers:**
 * [Skip straight to the details and start](#getting-started-with-your-selected-processor)

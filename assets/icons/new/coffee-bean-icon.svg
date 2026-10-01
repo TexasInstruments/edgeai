@@ -1,7 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
-  <g fill="none" stroke="#333" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M180,60 C258,60 300,128 300,180 C300,232 258,300 180,300 C102,300 60,232 60,180 C60,128 102,60 180,60 Z"/>
-    <path d="M180,82 C158,122 148,152 148,180 C148,208 158,238 180,278"/>
+  <g transform="translate(175.6,127.9) rotate(99.2) scale(0.469)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(150.2,129.8) rotate(293.7) scale(0.423)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(219.8,133.5) rotate(103.9) scale(0.437)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(130.3,142.9) rotate(161.1) scale(0.477)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(209.0,157.2) rotate(167.7) scale(0.424)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(119.4,172.1) rotate(350.5) scale(0.497)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(249.5,175.6) rotate(37.3) scale(0.463)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(195.9,181.4) rotate(195.1) scale(0.428)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(270.4,183.7) rotate(152.1) scale(0.410)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(161.2,187.5) rotate(300.7) scale(0.430)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(213.4,190.9) rotate(258.6) scale(0.400)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(137.6,193.0) rotate(297.6) scale(0.413)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(112.0,195.0) rotate(106.3) scale(0.449)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(236.0,198.6) rotate(312.3) scale(0.424)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(179.0,213.2) rotate(78.2) scale(0.432)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(126.6,215.0) rotate(345.5) scale(0.441)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(155.2,216.7) rotate(172.0) scale(0.466)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(220.5,218.7) rotate(166.6) scale(0.415)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(103.9,225.3) rotate(217.8) scale(0.435)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(281.9,226.1) rotate(130.4) scale(0.418)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(260.1,227.1) rotate(353.7) scale(0.476)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(96.3,233.9) rotate(50.1) scale(0.488)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(277.7,236.6) rotate(278.6) scale(0.500)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(193.6,238.5) rotate(114.0) scale(0.474)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(54.3,240.6) rotate(329.5) scale(0.479)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(160.5,247.8) rotate(48.3) scale(0.411)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(130.2,250.7) rotate(277.5) scale(0.499)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(212.8,254.3) rotate(130.3) scale(0.478)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(244.9,256.0) rotate(319.1) scale(0.518)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(209.1,261.9) rotate(140.6) scale(0.517)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(268.5,262.0) rotate(185.2) scale(0.465)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(283.8,262.1) rotate(52.4) scale(0.477)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(188.9,270.9) rotate(302.5) scale(0.447)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(99.5,276.8) rotate(62.3) scale(0.499)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(244.8,277.7) rotate(98.2) scale(0.420)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(75.2,280.5) rotate(149.2) scale(0.430)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(132.8,284.0) rotate(224.3) scale(0.451)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(167.7,291.2) rotate(341.0) scale(0.480)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(98.3,294.4) rotate(196.5) scale(0.495)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(269.2,299.9) rotate(206.2) scale(0.519)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(288.0,300.0) rotate(20.0) scale(0.440)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(66.0,302.0) rotate(-25.0) scale(0.460)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(100.0,306.0) rotate(15.0) scale(0.400)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(202.5,307.6) rotate(29.3) scale(0.495)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(126.0,310.9) rotate(284.5) scale(0.468)">
+    <path d="M0,-68 C44,-53 44,53 0,68 C-44,53 -44,-53 0,-68 Z" fill="#333" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M-7,-44 C-24,-10 24,10 -7,44" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
   </g>
 </svg>

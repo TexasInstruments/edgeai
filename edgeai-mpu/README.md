@@ -1,4 +1,4 @@
-# Edge AI software and development tools for microprocessor devices with Linux and TIDL support
+# Edge AI tools for MPUs
 
 Embedded inference of Neural Network models is challenging due to high compute requirements. TI's Edge AI software optimizes and accelerates inference on TI's embedded devices, supporting heterogeneous execution of Neural Network models across Arm® Cortex®-A based MPUs and TI's C7™ NPU.
 
@@ -41,9 +41,7 @@ Pick the matching workflow for developing and deploying your model: [bring your 
 </td>
 <td>
 
-[Case Studies & Demos](https://ti.com/edgeaiprojects)
-
-Robotics, automotive and industrial demo applications.
+[Case Studies & Demos](https://ti.com/edgeaiprojects) - Robotics, automotive and industrial demo applications.
 
 </td>
 </tr>
@@ -67,42 +65,42 @@ Here is a brief guide to get started with the tools.
 <tr>
 <td align="center" width="15%">
 
-[![Latest models in Model Hub](../assets/icons/new/model-hub-icon.svg ':size=96')](https://github.com/TexasInstruments/edgeai-modelhub)
+[![edgeai-modelhub](../assets/icons/new/model-hub-icon.svg ':size=96')](https://github.com/TexasInstruments/edgeai-modelhub)
 
 </td>
 <td>
 
-[Model Hub](https://github.com/TexasInstruments/edgeai-modelhub)
+[edgeai-modelhub](https://github.com/TexasInstruments/edgeai-modelhub) - Latest pretrained models from various public sources (recommended).
 
 Collection of state-of-the-art pretrained models and export scripts. Also includes the details needed to compile, benchmark and deploy them. It is available at 
-[huggingface](https://huggingface.co/TexasInstruments) and at [github](https://github.com/TexasInstruments/edgeai-modelhub). This collection is frequently updated. The repositories from which these models are exported are listed and can be used to train a custom model with your own data (BYOD) using the prtrained model as the checkpoint.
+[huggingface](https://huggingface.co/TexasInstruments) and at [github](https://github.com/TexasInstruments/edgeai-modelhub). This collection is frequently updated. The repositories from which these models are exported are listed and can be used to train custom models with your own data (BYOD) using the pretrained model as the checkpoint.
 
 </td>
 </tr>
 <tr>
 <td align="center" width="15%">
 
-[![Model Zoo](../assets/icons/new/model-zoo-icon.svg ':size=96')](https://github.com/TexasInstruments/edgeai-modelzoo)
+[![edgeai-modelzoo](../assets/icons/new/model-zoo-icon.svg ':size=96')](https://github.com/TexasInstruments/edgeai-modelzoo)
 
 </td>
 <td>
 
-[Model Zoo](https://github.com/TexasInstruments/edgeai-modelzoo)
+[edgeai-modelzoo](https://github.com/TexasInstruments/edgeai-modelzoo) - New and legacy models, including TI trained models.
 
-Collection of new and legacy pretrained, benchmarked models, including TI-trained embedded-friendly models. The repositories from which these models are exported are listed and can be used to train a custom model with your own data (BYOD) using the prtrained model as the checkpoint.
+Collection of new and legacy pretrained, benchmarked models, including TI-trained embedded-friendly models. The repositories from which these models are exported are listed and can be used to train custom models with your own data (BYOD) using the pretrained model as the checkpoint.
 
 </td>
 <tr>
 <td align="center" width="15%">
 
-[![PyTorch model optimization & quantization](../assets/icons/new/quantization-icon.svg ':size=96')](https://github.com/TexasInstruments/edgeai-modeloptimization)
+[![edgeai-modeloptimization](../assets/icons/new/quantization-icon.svg ':size=96')](https://github.com/TexasInstruments/edgeai-modeloptimization)
 
 </td>
 <td>
 
-[PyTorch model optimization & quantization](https://github.com/TexasInstruments/edgeai-modeloptimization)
+[PyTorch model optimization & quantization](https://github.com/TexasInstruments/edgeai-modeloptimization)- Model optimization - quantization, sparsity, distillation.
 
-Tools and utilities for developing embedded-friendly Neural Network models in PyTorch.
+Tools and utilities for developing embedded-friendly Neural Network models.
 
 </td>
 </tr>
@@ -115,11 +113,11 @@ Tools and utilities for developing embedded-friendly Neural Network models in Py
 </td>
 <td>
 
-[Model training and Model Maker](https://github.com/TexasInstruments/edgeai-tensorlab)
+[edgeai-tensorlab/edgeai-modelmaker](https://github.com/TexasInstruments/edgeai-tensorlab) - Integrated CLI for model training and compilation (deprecated tool)
 
 Train and compile models with the edgeai-modelmaker in edgeai-tensorlab. End-to-end development flow, with a simple interface - for beginners. 
 
-Note: This package is a bit outdated now, but it still serves as an example for model training and compilation.
+Note: This package is no longer actively supported, but may still be used as an example to train and export ONNX models (which can then be compiled for latest TIDL with edgeai-tidlrunner or edgeai-tidl-tools).
 
 </td>
 </tr>
@@ -131,9 +129,7 @@ Note: This package is a bit outdated now, but it still serves as an example for 
 </td>
 <td>
 
-[Publications and technical reports](readme_publications.md)
-
-Papers, articles and technical deep-dives.
+[Publications and technical reports](readme_publications.md) - Papers, articles and technical deep-dives.
 
 </td>
 </tr>
@@ -152,9 +148,7 @@ Papers, articles and technical deep-dives.
 </td>
 <td>
 
-[Target devices & SDKs](readme_sdk.md)
-
-AM6xA / TDA4x processors with C7™ NPU acceleration, and their Linux/RTOS SDKs.
+[Target devices & SDKs](readme_sdk.md) - AM6xA / TDA4x processors with C7™ NPU acceleration, and their Linux/RTOS SDKs.
 
 </td>
 </tr>
@@ -166,11 +160,9 @@ AM6xA / TDA4x processors with C7™ NPU acceleration, and their Linux/RTOS SDKs.
 </td>
 <td>
 
-[ONNX model surgery](https://github.com/TexasInstruments/edgeai-tidl-tools/tree/master/model-tools/tidl-onnx-model-optimizer)
+[ONNX model surgery](https://github.com/TexasInstruments/edgeai-tidl-tools/tree/master/model-tools/tidl-onnx-model-optimizer) - Convert ONNX operators that are unsupported by TIDL into supported equivalents.
 
-Convert ONNX operators that are unsupported by TIDL into supported equivalents.
-
-Also see other [model-tools](https://github.com/TexasInstruments/edgeai-tidl-tools/tree/master/model-tools) that are helpful for TIDL compilation.
+Also see other [model-tools](https://github.com/TexasInstruments/edgeai-tidl-tools/tree/master/model-tools) that are helpful to modify models for TIDL compilation.
 
 </td>
 </tr>
@@ -182,7 +174,7 @@ Also see other [model-tools](https://github.com/TexasInstruments/edgeai-tidl-too
 </td>
 <td>
 
-[Model compilation and deployment with edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools)
+[edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools) - Model compilation and deployment.
 
 Compile and infer ONNX/TFLite models for the C7™ NPU with edgeai-tidl-tools.
 
@@ -191,12 +183,12 @@ Compile and infer ONNX/TFLite models for the C7™ NPU with edgeai-tidl-tools.
 <tr>
 <td align="center" width="15%">
 
-[![Advanced model compilation and benchmark](../assets/icons/new/terminal-cli-icon.svg ':size=96')](https://github.com/TexasInstruments/edgeai-tidlrunner)
+[![edgeai-tidlrunner](../assets/icons/new/terminal-cli-icon.svg ':size=96')](https://github.com/TexasInstruments/edgeai-tidlrunner)
 
 </td>
 <td>
 
-[Advanced model compilation and benchmark](https://github.com/TexasInstruments/edgeai-tidlrunner)
+[edgeai-tidlrunner](https://github.com/TexasInstruments/edgeai-tidlrunner) - Advanced model compilation and benchmark.
 
 Command-line tool for model compilation, inference, accuracy benchmarking, optimization and visualized model inspection - no scripting required. Supports model compilation and accuracy benchmark on x86 PC emulation and inference on EVM.
 
@@ -205,12 +197,12 @@ Command-line tool for model compilation, inference, accuracy benchmarking, optim
 <tr>
 <td align="center" width="15%">
 
-[![Model benchmarks at Model Selection Tool](../assets/icons/new/benchmark-icon.svg ':size=96')](https://dev.ti.com/gallery/view/edgeai/edgeai-modelselection)
+[![edgeai-modelselection](../assets/icons/new/benchmark-icon.svg ':size=96')](https://dev.ti.com/gallery/view/edgeai/edgeai-modelselection)
 
 </td>
 <td>
 
-[Model benchmarks at Model Selection Tool](https://dev.ti.com/gallery/view/edgeai/edgeai-modelselection)
+[edgeai-modelselection](https://dev.ti.com/gallery/view/edgeai/edgeai-modelselection) - Model benchmarks are available at Model Selection Tool.
 
 Compare FPS, latency, DDR bandwidth and accuracy of various popular models.
 
@@ -224,23 +216,23 @@ Compare FPS, latency, DDR bandwidth and accuracy of various popular models.
 </td>
 <td>
 
-[Edge AI Studio (GUI)](https://www.ti.com/tool/EDGE-AI-STUDIO)
+[Edge AI Studio (GUI)](https://www.ti.com/tool/EDGE-AI-STUDIO) - No-code, end-to-end model development.
 
-No-code data capture, training and compilation.
+Data capture, model training and compilation.
 
 </td>
 </tr>
 <tr>
 <td align="center" width="15%">
 
-[![Cloud-Based Evaluation](../assets/icons/ti/it-infrastructure-icon.svg ':size=96')](https://dev.ti.com/edgeaistudio/)
+[![Cloud-Based Evaluation](../assets/icons/ti/it-infrastructure-icon.svg ':size=96')](https://dev.ti.com/edgeaisession/)
 
 </td>
 <td>
 
-[Cloud-Based Evaluation (GUI)](https://dev.ti.com/edgeaistudio/)
+[Cloud-Based Evaluation (GUI)](https://dev.ti.com/edgeaisession/) - Evaluate on TI's EVM farm - no local hardware needed (deprecated tool).
 
-Evaluate on TI's EVM farm - no local hardware needed.
+Note: This tool is a bit outdated now, and is no longer recommended.
 
 </td>
 </tr>
