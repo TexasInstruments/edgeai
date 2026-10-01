@@ -27,7 +27,7 @@ Examples are grouped by task type. The first row in each table is a **generic** 
 
 [Generic time series classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/generic_timeseries_classification)
 
-Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
+Classifies synthetic sine, square, and sawtooth waveforms, the simplest signal set in the modelzoo. **Start here** to learn the toolchain end-to-end - dataset loading, feature extraction, training, quantization, and compilation - before adapting the same config.yaml structure to F28P55, MSPM0G5187, CC1352, CC1354, CC2755, or CC35X1 targets.
 
 </td>
 </tr>
@@ -41,7 +41,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [DC arc fault detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/dc_arc_fault)
 
-*Current* - Detect DC arc faults from current waveforms for electrical safety.
+*Current* - Detects DC arc faults from current waveforms on the F28P55 MCU, using FFT-based spectral feature extraction (1024-sample frames) feeding a compact CLS_1k_NPU classifier. Config variants include DSK and DSI builds plus an on-device learning configuration for adapting the model after deployment.
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [AC arc fault detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/ac_arc_fault)
 
-*Current* - Detect AC arc faults in electrical systems.
+*Current* - Detects series AC arc faults on the MSPM0G5187 MCU with integrated NPU, pairing the TIDA-010971 Rogowski-coil analog front end with FFT-based feature extraction. Targets UL 1699 compliance with over 99% detection accuracy and under 150ms end-to-end latency, including masking-load immunity for devices like vacuums and dimmers.
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Motor bearing fault classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/motor_bearing_fault)
 
-*Vibration* - Classify 5 bearing fault types + normal operation from vibration data.
+*Vibration* - Classifies 6 bearing conditions - normal operation plus 5 fault types such as contamination and erosion - from 3-axis vibration data on the F28P55 MCU. Uses FFT-based spectral binning feature extraction feeding a compact CLS_1k_NPU model, with a separate anomaly-detection config also available for the same dataset.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Blower imbalance detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/blower_imbalance)
 
-*Current* - Detect blade imbalance in HVAC blowers using 3-phase motor currents.
+*Current* - Detects blade imbalance in HVAC blower motors from 3-phase current signals on the F28P55 MCU. The pipeline applies FFT-based spectral binning across 256-sample frames (8-frame concatenation) before feeding a compact CLS_1k_NPU classifier, trained on the fan_blower_imbalance dataset.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Fan blade fault classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/fan_blade_fault_classification)
 
-*Accelerometer* - Detect faults in BLDC fans from accelerometer data.
+*Accelerometer* - Classifies 4 fan blade conditions (Normal, Blade Damage, Blade Imbalance, Blade Obstruction) from an ADXL355 accelerometer wired to the F28P55 LaunchPad over SPI, with CC1312, CC1352, CC1354, CC2755, and CC35X1 also supported. The default config reaches 100% accuracy on the provided dataset.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Gearbox fault detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/gearbox_fault_detection)
 
-*Vibration* - Classify gearbox operating conditions (healthy vs broken tooth) from vibration data.
+*Vibration* - Classifies gearbox condition as healthy or broken-tooth using 4-channel accelerometer data from the SpectraQuest Gearbox Fault Diagnostics Simulator dataset, windowed into 256-sample frames. Runs on the MSPM0G5187 NPU with 1D CNN models as small as 1.2K parameters, reaching 97-100% accuracy depending on model size.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Grid fault detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/grid_fault_detection)
 
-*Current* - Detect electrical grid faults from sensor data.
+*Current* - Detects abnormal AC grid conditions for EV on-board chargers (OBCs), protecting the power stage from adverse grid events. A CNN trained on a proprietary grid-fault dataset runs directly on the F29x MCU controlling the OBC, with fault categories defined using a hybrid human- and density-clustering annotation approach.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [ECG classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/ecg_classification)
 
-*ECG* - Classify normal vs anomalous heartbeats from ECG signals.
+*ECG* - Classifies electrocardiogram signals into Normal, Mild, and Other cardiac conditions using the AFE1594 analog front end feeding the MSPM0G5187 NPU (also supported on AM13E2 and F28P55). A 55K-parameter CNN (ECG_55k_NPU) processes 2500-sample frames and reaches about 97% accuracy.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [PIR presence detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/pir_detection)
 
-*PIR* - Detect presence/motion using PIR sensor data.
+*PIR* - Classifies passive infrared sensor signals into human motion, background motion, and dog motion using the TIDA-010997 EdgeAI Sensor Boosterpack on the MSPM0G5187 NPU. A ~53K-parameter CNN reduces false alarms from pets and environmental noise, reaching about 92.5% accuracy with fixed-point feature extraction on-device.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Fall detection classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/fall_detection_classification)
 
-*Accelerometer* - Detect and classify Human Fall vs Activities of Daily Living (ADL).
+*Accelerometer* - Classifies movement as a Fall or Activity of Daily Living (ADL) using the BMI270 accelerometer on the TIDA-010997 boosterpack, trained on the SisFall dataset rescaled from 13-bit to 16-bit resolution. The CLS_6k model (~6,000 parameters) runs on the MSPM0G5187 NPU in 0.67ms with 97.65% accuracy.
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Dynamic hand gesture recognition](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/dynamic_hand_gesture_recognition)
 
-*Accelerometer* - Classify 4 dynamic hand gestures (circle, wave, tap, other) from 3-axis accelerometer data.
+*Accelerometer* - Classifies 4 dynamic hand gestures (circle, wave, tap, other) from 3-axis accelerometer data captured on TI's Sensor BoosterPack, using 256-sample windows with 25% stride. A ~55K-parameter CNN (CLS_55k_NPU) runs on the MSPM0G5187 NPU and reaches 94.46% accuracy on test data.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Electrical fault classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/electrical_fault)
 
-*Voltage/Current* - Classify transmission line faults using voltage and current (2-class and 6-class variants).
+*Voltage/Current* - Classifies 3-phase transmission-line faults (line-line, line-ground, and multi-conductor combinations) from six MATLAB Simulink-modeled voltage/current channels (Va, Vb, Vc, Ia, Ib, Ic), offered as 2-class (fault/no-fault) and 6-class variants. FFT-based binning (256-sample frames into 32 features) resolves the strong multicollinearity between the raw phase channels.
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Grid stability prediction](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/grid_stability)
 
-*Simulated grid parameters* - Predict power grid stability from node parameters.
+*Simulated grid parameters* - Classifies a simulated 4-node star power network as stable or unstable from 12 inputs (tau, p, and g parameters per node) drawn from the UCI Electrical Grid Stability dataset. The same data also supports a regression variant that predicts a continuous stability index, useful for feature-importance and PCA-based interpretability analysis.
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Gas sensor classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/gas_sensor)
 
-*Gas sensor array* - Identify gas type and concentration from sensor array data.
+*Gas sensor array* - Identifies gas type (ethyl acetate, isopropanol, or hexane at 100ppb) from 10 metal-oxide sensors sampled at 1Hz for 30 minutes, drawn from the UCI Gas Sensor Array dataset. The CLS_1k_NPU model runs in 535.59us on the F28P55x TI-NPU versus 4434.89us on CPU - roughly 8x faster.
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Human activity recognition](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/human_activity_recognition)
 
-*Accelerometer/Gyroscope* - Human Activity Recognition from accelerometer/gyroscope data.
+*Accelerometer/Gyroscope* - Recognizes activities (walking, jogging, sitting, standing, climbing stairs) from smartphone accelerometer/gyroscope data in the WISDM dataset. Showcases a residual-branch CNN (CLS_ResCat_3k, ~3.1K parameters, 93.84% accuracy) alongside simpler CLS_1k_NPU (94.92%) and CLS_13k_NPU (94.45%) models to demonstrate configurable branched architectures.
 
 </td>
 </tr>
@@ -251,7 +251,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [NILM appliance usage classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/nilm_appliance_usage_classification)
 
-*Voltage/Current* - Non-Intrusive Load Monitoring - identify active appliances.
+*Voltage/Current* - Identifies which combination of fridge, washer/dryer, and tumble dryer are active from 5 power-metering variables (active power, voltage, current, reactive power, phase), refined from a 28-class Kaggle ESDA NILM dataset down to 4 well-populated classes. The CLS_13k_NPU model with TI-NPU quantization reaches 95.95% test accuracy.
 
 </td>
 </tr>
@@ -265,7 +265,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [PLAID appliance identification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/PLAID_nilm_classification)
 
-*Voltage/Current* - Appliance identification using the PLAID dataset.
+*Voltage/Current* - Identifies 11 household appliance types (from air conditioners to washing machines) using the public PLAID dataset of voltage/current waveforms sampled at 30kHz. A 6-layer CNN (CLS_13k_NPU, ~13K parameters) with FFT-based feature extraction runs on the F28P55 and reaches 97.72% test accuracy.
 
 </td>
 </tr>
@@ -279,7 +279,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Wi-Fi CSI presence detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/wifi_csi_presence_detection)
 
-*Wi-Fi CSI* - Device-free human presence detection from Wi-Fi Channel State Information.
+*Wi-Fi CSI* - Detects human presence (including stationary occupants) from Wi-Fi Channel State Information across 52 subcarriers at 128Hz, with no body-worn sensors, running on the CC35X1 Wi-Fi MCU. A ~4.7K-parameter 2D CNN (SimpleCNN2D_BN_t) reaches 98.75-98.90% test accuracy across the two provided in-house datasets.
 
 </td>
 </tr>
@@ -298,7 +298,7 @@ Classify sine/square/sawtooth waveforms. **Start here** to learn the toolchain.
 
 [Generic time series regression](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/generic_timeseries_regression)
 
-Generic regression example for continuous value prediction.
+Hello-world introduction to time series regression on the TinyML ModelMaker toolchain, using a synthetic dataset where y = 1.2 sin(x) + 3.2 cos(x). Trains a 2k-parameter CNN (REGR_2k) for the F28P55 target, scored by RMSE and R². **Start here** to learn the regression toolchain before adapting it to your own dataset.
 
 </td>
 </tr>
@@ -312,7 +312,7 @@ Generic regression example for continuous value prediction.
 
 [BMS battery SOC estimation](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/bms_soc_estimation)
 
-*Voltage/Current/Temperature* - Estimate lithium-ion battery State of Charge (SOC) for battery management systems.
+*Voltage/Current/Temperature* - Estimates lithium-ion battery State of Charge on the MSPM0G5187's integrated NPU, trained on 4491 files of the public LG 18650HG2 charge/discharge dataset using voltage, current, temperature, and coulomb-count inputs. The 20k-parameter REGR_20k_NPU model reaches 2.56% test RMSE and R² of 0.99 in a 26KB flash footprint.
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ Generic regression example for continuous value prediction.
 
 [MOSFET temperature prediction](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/mosfet_temp_prediction)
 
-*Temperature/Power* - Predict MOSFET temperature from electrical parameters.
+*Temperature/Power* - Predicts switch case temperature on F29H85x devices by pairing a linear ARMA thermal model with an AI model (REGR_3k, an MLP) that corrects its residual error, using 20 past points each of NTC temperature and power loss plus ambient/coolant conditions. Useful where direct junction-temperature sensing is impractical.
 
 </td>
 </tr>
@@ -340,7 +340,7 @@ Generic regression example for continuous value prediction.
 
 [PMSM torque measurement regression](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/torque_measurement_regression)
 
-*Voltage/Current/Speed/Temperature* - Predict PMSM motor torque from current measurements.
+*Voltage/Current/Speed/Temperature* - Predicts PMSM motor torque from 10 electrical and thermal channels (currents, voltages, speed, and winding temperatures) in the Paderborn University motor dataset, sampled at 2 Hz. With a 128-sample window, the model reaches test R² of 0.98 (RMSE 9.40) on the F28P55x target.
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ Generic regression example for continuous value prediction.
 
 [Induction motor speed prediction](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/induction_motor_speed_prediction)
 
-*Voltage/Current* - Predict induction motor speed from electrical signals.
+*Voltage/Current* - Predicts three-phase induction motor speed (RPM) from a 15,000-sample simulated dataset covering voltage, current, frequency, power factor, poles, and load torque. The REGR_1k model (TINIE-accelerator compatible) runs on the F29H85x in 9.45 microseconds using just 4.3KB flash and 128B SRAM.
 
 </td>
 </tr>
@@ -368,7 +368,7 @@ Generic regression example for continuous value prediction.
 
 [Washing machine load regression](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/washing_machine_load_weighing)
 
-*Voltage/Current/Speed* - Predict washing machine load weight.
+*Voltage/Current/Speed* - Predicts washing machine load weight (0-900g, 100g precision) from 6 motor drive signals (d/q-axis voltage and current, reference current, speed), eliminating the need for a mechanical weight sensor. The 13k-parameter REGR_13k model achieves 25.78g RMSE float and 31.23g partially quantized on the F28P55.
 
 </td>
 </tr>
@@ -387,7 +387,7 @@ Generic regression example for continuous value prediction.
 
 [Generic time series forecasting](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/generic_timeseries_forecasting)
 
-Generic forecasting example for time series prediction.
+Hello-world introduction to time series forecasting on the TinyML ModelMaker toolchain, using a simulated thermostat dataset where a heater cycles on below 20C and off above 24C. Configures SimpleWindow framing (frame_size 32, 2-step forecast horizon) for the F28P55. **Start here** to learn the forecasting toolchain before adapting it to your own dataset.
 
 </td>
 </tr>
@@ -401,7 +401,7 @@ Generic forecasting example for time series prediction.
 
 [PMSM rotor temperature forecasting](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/forecasting_pmsm_rotor_temp)
 
-*Voltage/Current* - Forecast PMSM rotor winding temperature.
+*Voltage/Current* - Forecasts permanent-magnet surface temperature in a PMSM one step ahead, using only ambient and coolant temperature, d/q-axis voltage, and phase current magnitude as inputs (no direct magnet sensor). Early warning matters because magnets permanently lose strength above roughly 150C and motor life can halve for every 10C of overheating.
 
 </td>
 </tr>
@@ -415,7 +415,7 @@ Generic forecasting example for time series prediction.
 
 [HVAC indoor temperature forecasting](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/hvac_indoor_temp_forecast)
 
-*Temperature* - Predict indoor temperature for HVAC control.
+*Temperature* - Forecasts indoor temperature one step ahead from 5-sample histories of compressor frequency, outdoor temperature, and indoor temperature, enabling predictive HVAC control instead of reactive thresholding. The 611-parameter FCST_LSTM10 model reaches 0.30% SMAPE (R² 0.997) in float and 0.80% SMAPE after NPU quantization.
 
 </td>
 </tr>
@@ -434,7 +434,7 @@ Generic forecasting example for time series prediction.
 
 [Generic time series anomaly detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/generic_timeseries_anomalydetection)
 
-Detect abnormal frequency/amplitude patterns in a synthetic waveform using an autoencoder. **Start here** to learn the anomaly detection toolchain.
+Detects abnormal frequency and amplitude shifts in a synthetic sine/cosine waveform using a 17k-parameter autoencoder (AD_17k) trained only on normal data and tested against 4 anomaly types. A 100-sample window - one full cycle at 1 Hz - is needed to tell faster or slower cycles from noise. **Start here** to learn the anomaly detection toolchain.
 
 </td>
 </tr>
@@ -453,7 +453,7 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 
 [Google Speech Commands keyword spotting](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/google_speech_command)
 
-*Audio (MFCC)* - Keyword spotting across 10 known commands plus unknown/silence, using the Google Speech Commands dataset.
+*Audio (MFCC)* - Keyword spotting across 10 known commands (yes, no, up, down, stop, go, left, right, on, off) plus unknown and silence, using the Google Speech Commands v0.02 dataset. Audio is converted to 10-coefficient MFCCs over 40 mel bins at 16kHz, then classified with a depthwise-separable CNN (DSCNN) sized for efficient NPU inference.
 
 </td>
 </tr>
@@ -467,7 +467,7 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 
 [Cough detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/cough_detection)
 
-*Audio* - Binary classification (cough vs. other sounds), running fully on-device on the TinyEngine NPU.
+*Audio* - Binary classification (cough vs. other sounds) running fully on-device on the LP-MSPM0G5187 LaunchPad using the TinyEngine NPU, with no cloud, OS, or external ML framework required. Audio is captured via TI Edge AI Studio and classified with a TCDS-ResNet model trained on LPC-based features; the training pipeline reached 100% cough recall in validation.
 
 </td>
 </tr>
@@ -481,7 +481,7 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 
 [Glass break detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/glass_break_detection)
 
-*Audio (FFT)* - Detect glass-breaking acoustic signatures for security and home-automation systems.
+*Audio (FFT)* - Detects glass-breaking acoustic signatures on the MSPM0G5187 microcontroller's integrated NPU for security and home-automation systems, combining FFT-based feature extraction with a lightweight DSCNN model (~6K parameters, ~8KB flash). Targets under 100ms response time and over 95% detection accuracy for always-on, battery-powered deployment.
 
 </td>
 </tr>
@@ -495,7 +495,7 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 
 [Wake word detection](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/wake_word_detection)
 
-*Audio* - Always-on, on-device detection of a wake word for low-power, privacy-preserving voice interfaces.
+*Audio* - Listens continuously on-device for the wake word "OK Kilby," triggering downstream voice-command processing only when it's detected, so no audio ever leaves the device. Runs a filterbank-plus-TCDS-ResNet model with 2-bit quantized residual blocks on the MSPM0G5187 NPU, targeting under 200ms end-to-end detection latency for always-on, low-power listening.
 
 </td>
 </tr>
@@ -514,7 +514,7 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 
 [MNIST handwritten digit classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/MNIST_image_classification)
 
-*Image* - Classify handwritten digits (0-9) using the MNIST dataset. **Start here** to learn the image classification toolchain.
+*Image* - Classify handwritten digits (0-9) using the MNIST dataset on the MSPM0G5187 microcontroller, running a classic LeNet-5 CNN (~60K parameters) that reaches about 99% accuracy after INT8 quantization. **Start here** to learn the image classification toolchain.
 
 </td>
 </tr>
@@ -528,7 +528,7 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 
 [Coffee bean classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/coffee_bean_classification)
 
-*Image* - Classify coffee bean roast level from images for visual quality inspection.
+*Image* - Classify coffee bean roast level from images for visual quality inspection, running on the MSPM0G5187 microcontroller. Training uses a lightweight MobileNetV1 variant (MobileNetV1_28k_NPU, ~28K parameters) trained for 30 epochs, sized to fit NPU-based deployment on a resource-constrained MCU.
 
 </td>
 </tr>
@@ -542,7 +542,7 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 
 [Machine readable code classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/machine_readable_code_classification)
 
-*Image* - Classify an image as a QR code, a barcode, or neither, from low-resolution 28x28 images.
+*Image* - Classify an image as a QR code, a barcode, or neither, from low-resolution 28x28 1-channel binary images. The dataset is synthetically generated (3,000 images per class) using the Python `qrcode` and `python-barcode` libraries, so the model learns visual structure rather than decoding the codes.
 
 </td>
 </tr>
@@ -561,7 +561,7 @@ Detect abnormal frequency/amplitude patterns in a synthetic waveform using an au
 
 [Radar point cloud classification](https://github.com/TexasInstruments/tinyml-modelzoo/tree/main/examples/radar_pose_and_fall_detection)
 
-*Radar point cloud* - Detect human presence, pose, and falls from mmWave radar point-cloud frames (IWRL6432).
+*Radar point cloud* - Classify human posture and falls into five classes (standing, sitting, lying, walking, falling) from mmWave point-cloud frames captured on the IWRL6432. Each frame windows together track height, velocity, and acceleration with per-point distance, height, and signal-to-noise-ratio values from the radar's point-cloud tracker output.
 
 </td>
 </tr>
