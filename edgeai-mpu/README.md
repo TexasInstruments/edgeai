@@ -124,12 +124,12 @@ Note: This package is no longer actively supported, but may still be used as an 
 <tr>
 <td align="center" width="15%">
 
-[![Publications and technical reports](../assets/icons/new/publication-icon.svg ':size=96')](readme_publications.md)
+[![Publications and technical reports](../assets/icons/new/publication-icon.svg ':size=96')](publications.md)
 
 </td>
 <td>
 
-[Publications and technical reports](readme_publications.md) - Papers, articles and technical deep-dives.
+[Publications and technical reports](publications.md) - Papers, articles and technical deep-dives.
 
 </td>
 </tr>
@@ -143,12 +143,12 @@ Note: This package is no longer actively supported, but may still be used as an 
 <tr>
 <td align="center" width="15%">
 
-[![Target Devices & SDKs](../assets/icons/ti/processor-chip-icon.svg ':size=96')](readme_sdk.md)
+[![Target Devices & SDKs](../assets/icons/ti/processor-chip-icon.svg ':size=96')](sdk.md)
 
 </td>
 <td>
 
-[Target devices & SDKs](readme_sdk.md) - AM6xA / TDA4x processors with C7™ NPU acceleration, and their Linux/RTOS SDKs.
+[Target devices & SDKs](sdk.md) - AM6xA / TDA4x processors with C7™ NPU acceleration, and their Linux/RTOS SDKs.
 
 </td>
 </tr>

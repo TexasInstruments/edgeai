@@ -6,7 +6,7 @@ Edge AI on TI's Application Specific Microcontrollers (MCUs) - Tiny ML brings AI
 
 Here is a brief guide to get started with the tools.
 
-1. Browse through the [Example applications](readme_examples.md) described in this repository and in [tinyml-modelzoo](https://github.com/TexasInstruments/tinyml-modelzoo#examples-reference) to understand the kind of applications that can be developed.
+1. Browse through the [Example applications](examples.md) described in this repository and in [tinyml-modelzoo](https://github.com/TexasInstruments/tinyml-modelzoo#examples-reference) to understand the kind of applications that can be developed.
 2. [Edge AI Studio (GUI)](https://www.ti.com/tool/EDGE-AI-STUDIO/) is the easiest starting point for a beginner. Try out an already existing example to get an idea about the development flow.
 3. Use or capture your own data in Edge AI Studio and then try out the model training and compilation flow.
 4. Browse through and try out the CLI tools provided in [tinyml-modelzoo](https://github.com/TexasInstruments/tinyml-modelzoo)
@@ -21,12 +21,12 @@ Here is a brief guide to get started with the tools.
 <tr>
 <td align="center" width="15%">
 
-[![Example applications](../assets/icons/new/app-gallery-icon.svg ':size=96')](readme_examples.md)
+[![Example applications](../assets/icons/new/app-gallery-icon.svg ':size=96')](examples.md)
 
 </td>
 <td>
 
-[Example applications](readme_examples.md) - Browse 30+ ready-to-run example applications.
+[Example applications](examples.md) - Browse 30+ ready-to-run example applications.
 
 Examples include Time Series Classification, Regression, Forecasting, Anomaly Detection, Audio Classification, Image Classification, and Radar Point Cloud Classification, each with a dataset, tuned model, and device-specific config.
 
@@ -68,12 +68,12 @@ Tools to quantize models for TI devices with TinyEngine™ NPUs. Supports Quanti
 <tr>
 <td align="center" width="15%">
 
-[![Target devices & SDKs](../assets/icons/new/mcu-icon.svg ':size=96')](readme_sdk.md)
+[![Target devices & SDKs](../assets/icons/new/mcu-icon.svg ':size=96')](sdk.md)
 
 </td>
 <td>
 
-[Target devices & SDKs](readme_sdk.md) - Software development kits of supported devices.
+[Target devices & SDKs](sdk.md) - Software development kits of supported devices.
 
 C2000™ (F28x/F29x), MSPM0, Connectivity and Radar MCUs, and their supported SDKs.
 

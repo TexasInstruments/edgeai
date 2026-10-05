@@ -53,7 +53,7 @@ The figure below provides a high level summary of the relevant tools:<br>![Edge 
 
 | Category                                                | Tool/Link| Purpose     | IS NOT                |
 |---------------------------------------------------------|----------|-------------|-----------------------|
-| **Edge AI Software Development Kit**|[Devices & SDKs](readme_sdk.md) | SDK to develop end-to-end AI pipeline with camera, inference and display<br>- Different inference runtime: TFLite/LiteRT, ONNXRT, TVM, TIDL-RT<br>- Framework: openVX, gstreamer<br>- Device drivers: Camera, display, networking<br>- OS: Linux, RTOS<br>- Many other software modules: codecs, OpenCV, OpenGL, …   | Does not support model compilation: this is supported only on an x86 machine  |
+| **Edge AI Software Development Kit**|[Devices & SDKs](sdk.md) | SDK to develop end-to-end AI pipeline with camera, inference and display<br>- Different inference runtime: TFLite/LiteRT, ONNXRT, TVM, TIDL-RT<br>- Framework: openVX, gstreamer<br>- Device drivers: Camera, display, networking<br>- OS: Linux, RTOS<br>- Many other software modules: codecs, OpenCV, OpenGL, …   | Does not support model compilation: this is supported only on an x86 machine  |
 
 <hr>
 

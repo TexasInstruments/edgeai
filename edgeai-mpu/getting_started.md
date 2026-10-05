@@ -17,7 +17,7 @@ Please find our demo applications and use-cases on [ti.com/edgeaiprojects](https
 
 To use these AM6xA and TDA4x processors for your Edge AI system, follow these steps:
 1) [Select a processor and acquire evaluation hardware](#select-a-processor-suited-to-your-use-case)
-2) Setup the [Software Development Kit (SDK) for your device](./readme_sdk.md), install to an SD card, and boot the Edge AI SDK on the evaluation/development hardware
+2) Setup the [Software Development Kit (SDK) for your device](./sdk.md), install to an SD card, and boot the Edge AI SDK on the evaluation/development hardware
 3) [Use TI Deep Learning (TIDL) to compile neural network models for the C7 AI accelerator and run on the target device](#ti-edge-ai-model-development-flow)
 4) Run models with open-source runtimes and integrate into an end-to-end application with Gstreamer or TI's OpenVX implementation
 
@@ -58,7 +58,7 @@ Please note that some SDK documentation links will take you to the AM62A docs --
 Follow these steps for Edge AI development: 
 
 1) Acquire a development/evaluation board, often called a Starter Kit EVM.
-2) Setup the [Software Development Kit (SDK)](./readme_sdk.md) on an SD card for the development board.
+2) Setup the [Software Development Kit (SDK)](./sdk.md) on an SD card for the development board.
 3) Evaluate the [out-of-box demo and sample end-to-end pipelines](https://software-dl.ti.com/processor-sdk-linux/esd/AM62AX/latest/exports/edgeai-docs/common/sample_apps.html) on models from [TI's model zoo](./README.md#details-of-various-tools). 
 4) Bring your AI task onto the processor by compiling and running models for your target hardware.
     * Compile models yourself with [edgeai-tidl-tools](https://github.com/TexasInstruments/edgeai-tidl-tools) -- Recommended to first try with [pre-validated examples](https://github.com/TexasInstruments/edgeai-tidl-tools?tab=readme-ov-file#validate-and-benchmark-out-of-box-examples), especially Python-based examples.
