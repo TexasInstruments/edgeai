@@ -4,15 +4,7 @@ The [TI Tiny ML Model Zoo](https://github.com/TexasInstruments/tinyml-modelzoo) 
 
 Examples are grouped by task type. The first row in each table is a **generic** example meant to be adapted to your own dataset; every other row is a **dedicated**, purpose-built config for that specific use case. See the [Tiny ML Model Zoo examples reference](https://github.com/TexasInstruments/tinyml-modelzoo#examples-reference) for the full, up-to-date list.
 
-## Table of contents
-
-- [Classification](#classification)
-- [Regression](#regression)
-- [Forecasting](#forecasting)
-- [Anomaly Detection](#anomaly-detection)
-- [Audio Classification](#audio-classification)
-- [Image Classification](#image-classification)
-- [Radar Point Cloud Classification](#radar-point-cloud-classification)
+**Example types:** [Classification](#classification) · [Regression](#regression) · [Forecasting](#forecasting) · [Anomaly Detection](#anomaly-detection) · [Audio Classification](#audio-classification) · [Image Classification](#image-classification) · [Radar Point Cloud Classification](#radar-point-cloud-classification)
 
 ## Classification
 
